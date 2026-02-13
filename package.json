@@ -1,0 +1,33 @@
+{
+  "name": "levelup-app",
+  "version": "1.0.0",
+  "description": "LevelUp is a web application that allows users to discover video games, share reviews, record play sessions, and manage a personalized game library. Core features include the ability for users to leave ratings and written reviews that other players can browse and sort by relevance or recency.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint .",
+    "prettier": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishell-cardenas/LevelUp-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mishell-cardenas/LevelUp-app/issues"
+  },
+  "homepage": "https://github.com/mishell-cardenas/LevelUp-app#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.14.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.3.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.8.1"
+  }
+}
