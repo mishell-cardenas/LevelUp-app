@@ -1,0 +1,379 @@
+/* Library Page Styles */
+
+/* Filter Section */
+.filter-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-group label {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+}
+
+.filter-select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(106, 176, 255, 0.3);
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-select:hover,
+.filter-select:focus {
+  border-color: #6ab0ff;
+  outline: none;
+  box-shadow: 0 0 10px rgba(106, 176, 255, 0.2);
+}
+
+/* Library Grid */
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+/* Game Card */
+.game-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-8px);
+}
+
+.game-cover {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 2/3;
+  background: linear-gradient(135deg, #2a2a3e 0%, #3a3a50 100%);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+.game-card:hover .game-cover {
+  box-shadow: 0 12px 32px rgba(106, 176, 255, 0.2);
+}
+
+.game-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-info {
+  padding: 12px 4px;
+  text-align: center;
+}
+
+.game-title {
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.game-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.rating-value {
+  color: #e0e0e0;
+  font-size: 0.9rem;
+}
+
+.rating-star {
+  color: #f5a623;
+  font-size: 1rem;
+}
+
+/* Floating Action Button */
+.fab {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(80, 80, 100, 0.8), rgba(60, 60, 80, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+.fab:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, rgba(106, 176, 255, 0.3), rgba(168, 85, 247, 0.3));
+  box-shadow: 0 12px 32px rgba(106, 176, 255, 0.3);
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+/* Game Detail Modal */
+.game-modal {
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: #b0b0b0;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.modal-close:hover {
+  color: #fff;
+}
+
+.modal-content-grid {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.modal-cover {
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 2/3;
+  background: linear-gradient(135deg, #2a2a3e 0%, #3a3a50 100%);
+}
+
+.modal-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-game-title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  margin-bottom: 16px;
+}
+
+.detail-label {
+  display: block;
+  color: #6ab0ff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.detail-value {
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+
+/* Status Badges in Modal */
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.status-badge.playing {
+  background: rgba(78, 204, 163, 0.2);
+  color: #4ecca3;
+}
+
+.status-badge.completed {
+  background: rgba(106, 176, 255, 0.2);
+  color: #6ab0ff;
+}
+
+.status-badge.on-hold {
+  background: rgba(245, 166, 35, 0.2);
+  color: #f5a623;
+}
+
+.status-badge.dropped {
+  background: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+}
+
+.status-badge.wishlist {
+  background: rgba(168, 85, 247, 0.2);
+  color: #a855f7;
+}
+
+/* Buttons */
+.btn-primary-gradient {
+  background: linear-gradient(135deg, #6ab0ff, #a855f7);
+  border: none;
+  border-radius: 25px;
+  padding: 12px 32px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn-primary-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(106, 176, 255, 0.4);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px 24px;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Add Game Modal */
+.add-game-modal {
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  position: relative;
+}
+
+.modal-title {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  color: #6ab0ff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(106, 176, 255, 0.3);
+  border-radius: 10px;
+  padding: 12px 16px;
+  color: #e0e0e0;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #6ab0ff;
+  box-shadow: 0 0 15px rgba(106, 176, 255, 0.2);
+}
+
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.form-actions button {
+  flex: 1;
+}
+
+/* User Greeting */
+.user-greeting {
+  color: #6ab0ff !important;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .modal-content-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .modal-cover {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .library-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 16px;
+  }
+}
