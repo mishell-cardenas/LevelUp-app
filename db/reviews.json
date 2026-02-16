@@ -1,0 +1,4502 @@
+[
+  {
+    "steamId": 730,
+    "username": "Calfe",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2026-01-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 730,
+    "username": "Biaggelli",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-11-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 686060,
+    "username": "Wadworth",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-07-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 686060,
+    "username": "Ropartz",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-10-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 553850,
+    "username": "Tideswell",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-08-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 553850,
+    "username": "Bonsey",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-06-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 7,
+    "username": "Mealing",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-03-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2767030,
+    "username": "Elcy",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-05-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2767030,
+    "username": "Studdert",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-05-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1172470,
+    "username": "Mortimer",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-11-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1172470,
+    "username": "Grombridge",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-05-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3764200,
+    "username": "Maylin",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-12-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3764200,
+    "username": "Teers",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2129530,
+    "username": "Ceccoli",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-02-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2129530,
+    "username": "Makin",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-07-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1808500,
+    "username": "Wisniowski",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-09-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1808500,
+    "username": "Unger",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-06-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 18,
+    "username": "Millen",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 4025700,
+    "username": "Epinoy",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-12-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 4025700,
+    "username": "Darlasson",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 578080,
+    "username": "Lamyman",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-12-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 578080,
+    "username": "Downe",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-02-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2536520,
+    "username": "Rubinek",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-11-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2536520,
+    "username": "Willcot",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-09-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2536520,
+    "username": "Scryne",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-06-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1091500,
+    "username": "Malarkey",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-11-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1091500,
+    "username": "Mandrey",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1091500,
+    "username": "Fransewich",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-03-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2050650,
+    "username": "Ibanez",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-08-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2050650,
+    "username": "MacRory",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-05-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2357570,
+    "username": "Ferretti",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-03-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2357570,
+    "username": "Miche",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-06-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2357570,
+    "username": "Dorsett",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-03-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2358720,
+    "username": "Luto",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2026-01-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2358720,
+    "username": "Crombleholme",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2026-02-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2358720,
+    "username": "Gilbeart",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-10-31T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2358720,
+    "username": "Coventry",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-11-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3681010,
+    "username": "Islep",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-06-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3681010,
+    "username": "Gartsyde",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3564740,
+    "username": "McSkin",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-06-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3564740,
+    "username": "Lentsch",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2026-01-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3564740,
+    "username": "Deeth",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-04-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 252490,
+    "username": "Bottini",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2026-02-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 252490,
+    "username": "Nowlan",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2026-02-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3643170,
+    "username": "Chipp",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-04-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3643170,
+    "username": "Watson",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-03-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3472040,
+    "username": "Micheu",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-11-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3472040,
+    "username": "Momery",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-08-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2246340,
+    "username": "Wong",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-06-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2246340,
+    "username": "Lynnitt",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2246340,
+    "username": "Twining",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-12-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 374320,
+    "username": "Wride",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-09-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 374320,
+    "username": "Axelby",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-02-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 374320,
+    "username": "Spellessy",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-02-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 374320,
+    "username": "Kowal",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-07-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2807960,
+    "username": "Heales",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-06-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2807960,
+    "username": "Desseine",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-09-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2807960,
+    "username": "MacDougall",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-04-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 381210,
+    "username": "Tugman",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-12-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 381210,
+    "username": "Hammersley",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-03-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 381210,
+    "username": "O'Dunneen",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-09-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 381210,
+    "username": "Scopham",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-08-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1196590,
+    "username": "Sawell",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-12-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1196590,
+    "username": "Boor",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-10-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1196590,
+    "username": "Grotty",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-02-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 230410,
+    "username": "Bambrick",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-06-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 230410,
+    "username": "McGeachey",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-10-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 230410,
+    "username": "Salmond",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-12-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2069250,
+    "username": "Killelay",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2026-02-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2069250,
+    "username": "Chumley",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-06-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 236390,
+    "username": "Juza",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-06-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 236390,
+    "username": "Yorkston",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 236390,
+    "username": "Lionel",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-06-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570,
+    "username": "Mullenger",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-08-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570,
+    "username": "Hankard",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-02-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570,
+    "username": "Dicty",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-10-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570,
+    "username": "Westrey",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-08-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570,
+    "username": "Crawcour",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-05-30T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 418370,
+    "username": "Imorts",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 418370,
+    "username": "Ions",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-05-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 418370,
+    "username": "Sitford",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3513350,
+    "username": "Bauser",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3513350,
+    "username": "Moakson",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-06-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3513350,
+    "username": "Kohtler",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2026-02-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3513350,
+    "username": "Sone",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-12-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3513350,
+    "username": "Verrick",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-10-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 275850,
+    "username": "Arnaudin",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-07-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 275850,
+    "username": "Powys",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-12-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 275850,
+    "username": "Woodrow",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2026-02-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3834090,
+    "username": "Lillow",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-03-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3834090,
+    "username": "Cowderoy",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2026-02-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3834090,
+    "username": "Bennike",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2001120,
+    "username": "Luisetti",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2026-01-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2001120,
+    "username": "Cato",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2026-01-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2001120,
+    "username": "Kloska",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2025-03-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3405690,
+    "username": "Dreakin",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-06-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3405690,
+    "username": "Heintz",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3405690,
+    "username": "Halifax",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-12-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1086940,
+    "username": "Lynch",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1086940,
+    "username": "Pochet",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1086940,
+    "username": "Gowing",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-09-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1426210,
+    "username": "MacFarlane",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-07-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1426210,
+    "username": "Maginn",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-03-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1426210,
+    "username": "Hearon",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-12-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1222670,
+    "username": "Ygoe",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2026-01-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1222670,
+    "username": "Greenham",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2507950,
+    "username": "Glendinning",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-05-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2507950,
+    "username": "Phettis",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-02-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2507950,
+    "username": "Towler",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-11-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2507950,
+    "username": "McIntee",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2026-01-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3240220,
+    "username": "Brumble",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-03-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3240220,
+    "username": "McCory",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-12-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3240220,
+    "username": "Neggrini",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-12-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3240220,
+    "username": "Tyzack",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2344520,
+    "username": "Hugueville",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-11-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2344520,
+    "username": "Oldcroft",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2026-01-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2344520,
+    "username": "Hockell",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2344520,
+    "username": "Zanutti",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-05-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2344520,
+    "username": "Mougenel",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-03-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2966320,
+    "username": "Benezet",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2026-01-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2966320,
+    "username": "Cropton",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-06-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2966320,
+    "username": "Marryatt",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-03-30T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570940,
+    "username": "Whitman",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570940,
+    "username": "Braam",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-03-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570940,
+    "username": "Cuttle",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2025-09-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 570940,
+    "username": "Haysom",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-02-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 489830,
+    "username": "Gimber",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-09-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 489830,
+    "username": "Sambedge",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-12-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 489830,
+    "username": "Sandaver",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2026-01-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 883710,
+    "username": "Vasquez",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-11-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 883710,
+    "username": "Fenne",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2026-01-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3017860,
+    "username": "Pyrah",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-06-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3017860,
+    "username": "Machon",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-05-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2483190,
+    "username": "Ketley",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-04-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2483190,
+    "username": "Benthall",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2483190,
+    "username": "Baudinot",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-04-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1151340,
+    "username": "Fairfoul",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-06-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1151340,
+    "username": "McCarly",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2026-01-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1364780,
+    "username": "Chittem",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2026-02-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1364780,
+    "username": "Stonham",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2026-02-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1364780,
+    "username": "Bignall",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-09-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1144200,
+    "username": "Plowman",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-06-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1144200,
+    "username": "Dansey",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-11-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1144200,
+    "username": "Burree",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2026-01-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3280350,
+    "username": "Evelyn",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-10-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3280350,
+    "username": "Faulo",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2026-01-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3280350,
+    "username": "Jendrach",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-08-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1142710,
+    "username": "Isaksson",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-04-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1142710,
+    "username": "Pawlata",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-07-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1142710,
+    "username": "Order",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-09-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 952060,
+    "username": "Sherlock",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2026-01-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 952060,
+    "username": "Torricina",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 952060,
+    "username": "Kassidy",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-07-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2322010,
+    "username": "Stelfox",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2026-02-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2322010,
+    "username": "Kenward",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-07-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2322010,
+    "username": "St Ange",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-02-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 294100,
+    "username": "McEntagart",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-09-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 294100,
+    "username": "Chaudron",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2026-01-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 294100,
+    "username": "Ranklin",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-07-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2417610,
+    "username": "Grundy",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2026-01-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2417610,
+    "username": "Firsby",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-10-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2417610,
+    "username": "Barkly",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-12-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2417610,
+    "username": "Janczyk",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1623730,
+    "username": "Defty",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-10-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1623730,
+    "username": "Cardinal",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-04-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1623730,
+    "username": "Giovanizio",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-10-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1245620,
+    "username": "Asel",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2026-02-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1245620,
+    "username": "Hugenin",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-12-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1245620,
+    "username": "Nicklen",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-06-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1245620,
+    "username": "Itzkovich",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-05-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3606480,
+    "username": "Brolly",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-10-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3606480,
+    "username": "Roome",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-07-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3606480,
+    "username": "Simonot",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-04-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3489700,
+    "username": "St. Aubyn",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-04-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3489700,
+    "username": "Alpine",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-10-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3489700,
+    "username": "Knights",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-10-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3489700,
+    "username": "Crepin",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2026-01-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3489700,
+    "username": "Dandie",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2026-02-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1449850,
+    "username": "Wipper",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-05-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1449850,
+    "username": "Czajka",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-03-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1449850,
+    "username": "Ringwood",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2026-01-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2499860,
+    "username": "Isakov",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-05-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2499860,
+    "username": "Halford",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-06-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2499860,
+    "username": "Le Teve",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-03-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2499860,
+    "username": "Iley",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-05-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2215430,
+    "username": "Passie",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-03-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2215430,
+    "username": "Wemyss",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-02-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2215430,
+    "username": "Limmer",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2026-01-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 552990,
+    "username": "Thirwell",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-11-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 552990,
+    "username": "Torel",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-07-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 552990,
+    "username": "Dyhouse",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-03-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 552990,
+    "username": "Myhan",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2073620,
+    "username": "Creeber",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-04-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2073620,
+    "username": "Tribe",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-03-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2073620,
+    "username": "Oglevie",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-08-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2073620,
+    "username": "Aizlewood",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-04-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 306130,
+    "username": "Wasbrough",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-04-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 306130,
+    "username": "Valens-Smith",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-12-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 311210,
+    "username": "Scanlan",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-06-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 311210,
+    "username": "Darque",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2026-01-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3241660,
+    "username": "Stode",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-02-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3241660,
+    "username": "Wastell",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-05-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2432860,
+    "username": "Tollit",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-02-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2432860,
+    "username": "Bradder",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-06-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2432860,
+    "username": "Antonoyev",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2026-02-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3059520,
+    "username": "Aldine",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-05-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3059520,
+    "username": "Basant",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3059520,
+    "username": "Simione",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1716740,
+    "username": "Tegler",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2026-02-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1716740,
+    "username": "Reder",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-03-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1716740,
+    "username": "Denecamp",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-05-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 359550,
+    "username": "Boscher",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-12-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 359550,
+    "username": "Placido",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-04-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 582660,
+    "username": "Fuzzens",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 582660,
+    "username": "Scrivin",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3321460,
+    "username": "Oulet",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-04-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3321460,
+    "username": "Rozanski",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-11-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2141910,
+    "username": "Lowy",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2141910,
+    "username": "MacVaugh",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-09-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1903340,
+    "username": "Bastone",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-03-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1903340,
+    "username": "Brome",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-09-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1903340,
+    "username": "Fullagar",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-09-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1371980,
+    "username": "Denisard",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1371980,
+    "username": "Connochie",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-10-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1888930,
+    "username": "Liger",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-06-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1888930,
+    "username": "Bollum",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2161700,
+    "username": "Kimmitt",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-05-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2161700,
+    "username": "Snazel",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-05-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2161700,
+    "username": "Beades",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-03-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 518790,
+    "username": "Roelofsen",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-03-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 518790,
+    "username": "Eriksson",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-06-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1401590,
+    "username": "Dodd",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-12-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1401590,
+    "username": "Brotherhead",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-06-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3164500,
+    "username": "Baldree",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2026-01-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3164500,
+    "username": "Surcombe",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-06-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2651280,
+    "username": "Lemmon",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-11-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2651280,
+    "username": "Skedgell",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-08-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1817070,
+    "username": "Coltart",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-11-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1817070,
+    "username": "Beck",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-05-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 292030,
+    "username": "Fominov",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-02-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 292030,
+    "username": "Gervaise",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-09-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 250900,
+    "username": "Lehrian",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-05-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 250900,
+    "username": "Kirkland",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2026-02-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3949040,
+    "username": "Marciek",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-10-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3949040,
+    "username": "Yo",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-03-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 335300,
+    "username": "Bonds",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-02-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 335300,
+    "username": "Morgan",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-07-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1593500,
+    "username": "Strowthers",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-10-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1593500,
+    "username": "Andreucci",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-05-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1984270,
+    "username": "Dodding",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1984270,
+    "username": "Fife",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-10-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1984270,
+    "username": "Howsley",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-03-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1812450,
+    "username": "O'Brogane",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-11-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1812450,
+    "username": "Dur",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-12-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1812450,
+    "username": "Caser",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-10-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1812450,
+    "username": "Shipston",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-04-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1172620,
+    "username": "Maddie",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1172620,
+    "username": "Yeoman",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-03-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1850570,
+    "username": "Purcell",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1203220,
+    "username": "Rentoll",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-11-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 413150,
+    "username": "Odney",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-08-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 438100,
+    "username": "Linsay",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-02-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 438100,
+    "username": "Hassell",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-10-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 227300,
+    "username": "Housegoe",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2026-01-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 227300,
+    "username": "Wormstone",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-11-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 221040,
+    "username": "Bramall",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-09-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 221040,
+    "username": "Dwire",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-06-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 632360,
+    "username": "Tookill",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-07-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 632360,
+    "username": "McCosker",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2026-02-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2139460,
+    "username": "Smitherham",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-07-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1446780,
+    "username": "Paoletto",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-07-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3527290,
+    "username": "McGillivrie",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-05-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3527290,
+    "username": "Creus",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2026-01-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2486820,
+    "username": "Stalley",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-09-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2486820,
+    "username": "Capner",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-12-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 4249130,
+    "username": "Muckley",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-11-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 4249130,
+    "username": "Mariel",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-11-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 21690,
+    "username": "Fawssett",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-12-31T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 21690,
+    "username": "Tatford",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-02-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 21690,
+    "username": "Fraine",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-12-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2592160,
+    "username": "Coche",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-04-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2592160,
+    "username": "Roofe",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-12-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2592160,
+    "username": "Parlott",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-03-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2592160,
+    "username": "Schwartz",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2026-02-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2592160,
+    "username": "Leithgoe",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 221100,
+    "username": "Shorton",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 221100,
+    "username": "McManus",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-02-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 221100,
+    "username": "Connor",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-11-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2397300,
+    "username": "Castelijn",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-12-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2397300,
+    "username": "De Francesco",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-11-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2397300,
+    "username": "Jowle",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-02-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 39210,
+    "username": "Spriggen",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-11-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 39210,
+    "username": "Blazey",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2131680,
+    "username": "Labrow",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-10-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2131680,
+    "username": "Denerley",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-07-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 284160,
+    "username": "Healks",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-05-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 284160,
+    "username": "Winfrey",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-12-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 284160,
+    "username": "Prose",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2025-04-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2300320,
+    "username": "Pinwill",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-10-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2300320,
+    "username": "Aucock",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-09-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 4249140,
+    "username": "Krolak",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-09-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 4249140,
+    "username": "Sands",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-02-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2852190,
+    "username": "Peracco",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2026-02-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2852190,
+    "username": "Hercules",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2026-01-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 105600,
+    "username": "Di Franceschi",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2025-05-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 105600,
+    "username": "McKinnon",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 105600,
+    "username": "Dalzell",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2026-01-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3551340,
+    "username": "Woolaghan",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-12-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3551340,
+    "username": "Broomer",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-09-30T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3551340,
+    "username": "Farady",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 216150,
+    "username": "Ruske",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-07-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 216150,
+    "username": "Scoates",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-02-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3419520,
+    "username": "Theunissen",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-08-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3419520,
+    "username": "Schult",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-12-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3419520,
+    "username": "Bengtson",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-11-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1778820,
+    "username": "Godbold",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-05-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1778820,
+    "username": "Purdon",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-08-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1778820,
+    "username": "Hintze",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3008130,
+    "username": "Benedick",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2026-02-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3008130,
+    "username": "Clement",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-07-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2531310,
+    "username": "Eacott",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-06-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2531310,
+    "username": "Fiddeman",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2384580,
+    "username": "Bellin",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-05-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2384580,
+    "username": "Brind",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-03-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2384580,
+    "username": "Ladel",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-05-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2623190,
+    "username": "Rylatt",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-05-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1476970,
+    "username": "Panyer",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-05-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1687950,
+    "username": "Springle",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2026-02-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2694490,
+    "username": "Croose",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-12-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1407200,
+    "username": "Bryden",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3937550,
+    "username": "Midgely",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-05-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1285190,
+    "username": "Renyard",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2399830,
+    "username": "McCalum",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2026-02-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1295660,
+    "username": "Bruton",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2025-02-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2947440,
+    "username": "Thickin",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-05-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1766060,
+    "username": "Aicheson",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2025-08-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2429640,
+    "username": "FitzGeorge",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2026-02-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1588550,
+    "username": "Whodcoat",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-02-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1588550,
+    "username": "Leader",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-05-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1588550,
+    "username": "Quig",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-04-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 440,
+    "username": "Dominec",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-09-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 440,
+    "username": "Skipworth",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-11-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 440,
+    "username": "Grahlman",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-04-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 440,
+    "username": "Trencher",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2025-09-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1190970,
+    "username": "Jansky",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-11-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1190970,
+    "username": "Deevey",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2026-01-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1313140,
+    "username": "Knatt",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-02-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1284210,
+    "username": "Ebertz",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-12-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1284210,
+    "username": "MacKomb",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-03-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2074920,
+    "username": "Suddick",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-06-30T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2074920,
+    "username": "Lange",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2026-02-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2074920,
+    "username": "Biggadyke",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 377160,
+    "username": "Sloey",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-07-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 377160,
+    "username": "Jeckell",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2026-02-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 601150,
+    "username": "Rubinsohn",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-03-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 601150,
+    "username": "Fould",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2026-01-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 244210,
+    "username": "Henze",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-11-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2356560,
+    "username": "Lewing",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-04-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2124490,
+    "username": "Naile",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 394360,
+    "username": "Rubinshtein",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2026-02-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1599340,
+    "username": "Vardy",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2026-02-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 739630,
+    "username": "Dumbleton",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-06-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 270880,
+    "username": "Metzing",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-09-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 339340,
+    "username": "Whewill",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-11-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 594650,
+    "username": "Rome",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-03-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2537590,
+    "username": "Capelen",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-05-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3065800,
+    "username": "Baptiste",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2026-01-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 427520,
+    "username": "Eastridge",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-06-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 427520,
+    "username": "Anear",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-03-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2379780,
+    "username": "Halbord",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-09-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3050900,
+    "username": "Abramski",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-12-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 813780,
+    "username": "Passfield",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-06-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 266410,
+    "username": "Gammidge",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 266410,
+    "username": "Bernhardi",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-12-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 266410,
+    "username": "Ilive",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-06-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1973530,
+    "username": "Hopkynson",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-03-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1973530,
+    "username": "Stickells",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-07-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2679460,
+    "username": "McWhorter",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-10-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2679460,
+    "username": "Heliar",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-08-30T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 427410,
+    "username": "Passfield",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2026-01-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 254700,
+    "username": "Emig",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-02-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 254700,
+    "username": "Verdon",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-04-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1771300,
+    "username": "Dunstone",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-10-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2622380,
+    "username": "Cherrett",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-09-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 304240,
+    "username": "Eckly",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-06-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3061810,
+    "username": "Nemchinov",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 322330,
+    "username": "Vivien",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2025-03-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2183900,
+    "username": "Lebbon",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-12-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1971870,
+    "username": "Fairholme",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-11-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1971870,
+    "username": "Wetter",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-07-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2073850,
+    "username": "Goldson",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-10-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1158310,
+    "username": "le Keux",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 223750,
+    "username": "Robbert",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-05-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 394,
+    "username": "Bortoletti",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-10-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1260320,
+    "username": "Cettell",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2026-01-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1203620,
+    "username": "Masden",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-06-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 835570,
+    "username": "Dungay",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-05-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 835570,
+    "username": "Gammill",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-04-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 835570,
+    "username": "Simoncini",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-06-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 400,
+    "username": "Drinkale",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2025-08-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1085660,
+    "username": "Collete",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-10-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1085660,
+    "username": "Yakovitch",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-04-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1326470,
+    "username": "Heatlie",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-08-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 4132647004,
+    "username": "Nordass",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-10-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 400750,
+    "username": "Frankcombe",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-06-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 400750,
+    "username": "Alexsandrowicz",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-04-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 949230,
+    "username": "Strewthers",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-06-18T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 949230,
+    "username": "Meneely",
+    "rating": 3,
+    "comment": "Enjoyable, but not mind-blowing. I had fun most sessions, it just didn’t fully hook me.",
+    "createdAt": {
+      "$date": "2026-01-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1790600,
+    "username": "Bourdice",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-02-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 648800,
+    "username": "Vye",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2026-01-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3501070,
+    "username": "Udale",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2026-02-22T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3501070,
+    "username": "Chadband",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-04-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 108600,
+    "username": "Rotherforth",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2026-02-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 281990,
+    "username": "Perring",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-02-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1874880,
+    "username": "Le Conte",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1874880,
+    "username": "Milliken",
+    "rating": 2,
+    "comment": "Not terrible, just not for me. Too many little annoyances kept pulling me out.",
+    "createdAt": {
+      "$date": "2025-12-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1874880,
+    "username": "Alvin",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1962663,
+    "username": "Cowcha",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2026-01-31T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1962663,
+    "username": "Tole",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-04-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 805550,
+    "username": "McReynold",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-10-30T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 805550,
+    "username": "Mustoe",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-11-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1659420,
+    "username": "Stoyles",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-03-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1659420,
+    "username": "Whannel",
+    "rating": 1,
+    "comment": "I wanted to like it, but it felt unfinished. Clunky menus, confusing progression, and a sloggy opening.",
+    "createdAt": {
+      "$date": "2025-12-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2420110,
+    "username": "Dalton",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-04-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1868140,
+    "username": "Reckhouse",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1551360,
+    "username": "Gillean",
+    "rating": 3,
+    "comment": "Solid overall with a few rough edges. Fun core loop, but the pacing drags in the middle.",
+    "createdAt": {
+      "$date": "2025-05-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1551360,
+    "username": "Spinks",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2025-10-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1551360,
+    "username": "Keling",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-03-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 526870,
+    "username": "Bassam",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-09-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 526870,
+    "username": "Messent",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3167020,
+    "username": "Rickett",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3167020,
+    "username": "Ties",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-11-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 631510,
+    "username": "Creer",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2026-02-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 631510,
+    "username": "Dopson",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2026-02-21T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1954200,
+    "username": "Cannop",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-12-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1954200,
+    "username": "Christley",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-03-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3932890,
+    "username": "covino",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-09-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2444750,
+    "username": "Biddlestone",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2661300,
+    "username": "Armand",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2026-01-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2661300,
+    "username": "Faint",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-10-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 289070,
+    "username": "Heffy",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-03-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1361210,
+    "username": "Eplate",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-11-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1361210,
+    "username": "Nott",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-04-12T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1817190,
+    "username": "Argente",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-10-13T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2948190,
+    "username": "Rabbatts",
+    "rating": 4,
+    "comment": "The learning curve is real, but once it clicks it’s super rewarding. I love how it lets you solve problems your own way.",
+    "createdAt": {
+      "$date": "2026-01-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 594570,
+    "username": "McGraith",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-10-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 393380,
+    "username": "Meijer",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-05-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1277400,
+    "username": "Davydochkin",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-12-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1286830,
+    "username": "McCrisken",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-06-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2958130,
+    "username": "Aliberti",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-02-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2958130,
+    "username": "Bramich",
+    "rating": 5,
+    "comment": "Accidentally played until 3am. Multiple times. Every session turns into “one more thing” and the loop is dangerously satisfying.",
+    "createdAt": {
+      "$date": "2025-07-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2840770,
+    "username": "Phythien",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-02-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1974050,
+    "username": "Nasey",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-03-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1289670,
+    "username": "Sagg",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-11-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2677660,
+    "username": "Tremollet",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-09-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 322170,
+    "username": "Murfett",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-05-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1174180,
+    "username": "Bassam",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2026-01-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1631270,
+    "username": "Bennitt",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-02-02T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2744880,
+    "username": "Lyffe",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-02-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1149460,
+    "username": "Whilder",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1790930,
+    "username": "Kinnon",
+    "rating": 1,
+    "comment": "I dropped it. The core loop didn’t hook me and the rough parts weren’t worth pushing through.",
+    "createdAt": {
+      "$date": "2026-01-04T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 261550,
+    "username": "Beiderbecke",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-09-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 463,
+    "username": "Sheeres",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-09-07T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2277560,
+    "username": "Peddowe",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1643320,
+    "username": "Zini",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-05-17T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 457140,
+    "username": "Dunkersley",
+    "rating": 2,
+    "comment": "It feels like it needed more polish. The core is interesting, but the frustration wins.",
+    "createdAt": {
+      "$date": "2025-11-25T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 457140,
+    "username": "McDowall",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-10-30T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2815070,
+    "username": "Drance",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-09-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1604030,
+    "username": "Scourfield",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-06-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2054970,
+    "username": "De Hailes",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-12-19T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2273430,
+    "username": "Uvedale",
+    "rating": 1,
+    "comment": "Not for me. The controls felt off and I spent more time fighting the interface than enjoying the game.",
+    "createdAt": {
+      "$date": "2025-03-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 534380,
+    "username": "Powder",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-08-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2185060,
+    "username": "Golborn",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 505460,
+    "username": "Caley",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2025-08-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1325200,
+    "username": "Killen",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-05-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1583230,
+    "username": "McBoyle",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2026-01-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1304930,
+    "username": "Heims",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-08-24T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1938090,
+    "username": "Brient",
+    "rating": 1,
+    "comment": "This didn’t respect my time. Too much repetition, too little payoff, and it never really clicked.",
+    "createdAt": {
+      "$date": "2025-09-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 329050,
+    "username": "McFeat",
+    "rating": 2,
+    "comment": "There’s something good here, but it’s buried under grind and confusing progression.",
+    "createdAt": {
+      "$date": "2025-09-03T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1721470,
+    "username": "Waterworth",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-06-16T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1934680,
+    "username": "Winter",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-03-15T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 782330,
+    "username": "Streetfield",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-02-11T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3230400,
+    "username": "Guidi",
+    "rating": 5,
+    "comment": "Perfect comfort game. So relaxing. The kind of thing you boot up to unwind and suddenly an hour disappears.",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1665460,
+    "username": "Baildon",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-04-23T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 371970,
+    "username": "Whitfeld",
+    "rating": 1,
+    "comment": "Frustrating in ways that aren’t fun. I kept waiting for it to improve and it never did.",
+    "createdAt": {
+      "$date": "2025-04-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1943950,
+    "username": "Phittiplace",
+    "rating": 4,
+    "comment": "Fun, polished, and memorable. Not perfect, but it kept pulling me back in.",
+    "createdAt": {
+      "$date": "2025-06-28T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3224770,
+    "username": "Pearmain",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2026-02-27T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2101960,
+    "username": "Livett",
+    "rating": 2,
+    "comment": "A few cool moments, but the rough edges add up fast. I bounced sooner than I expected.",
+    "createdAt": {
+      "$date": "2025-04-26T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2294660,
+    "username": "Wilfinger",
+    "rating": 5,
+    "comment": "One of those games that sticks in your head when you’re not playing. Great vibes, great payoff, and it respects your time.",
+    "createdAt": {
+      "$date": "2025-08-31T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2000950,
+    "username": "Rotherforth",
+    "rating": 3,
+    "comment": "Worth trying if the genre appeals to you. Some parts are excellent, others feel undercooked.",
+    "createdAt": {
+      "$date": "2025-06-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 239140,
+    "username": "Biaggelli",
+    "rating": 4,
+    "comment": "Really strong overall. A couple frustrating bits, but the highs are high and it’s easy to recommend.",
+    "createdAt": {
+      "$date": "2025-10-06T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3859630,
+    "username": "Moar",
+    "rating": 4,
+    "comment": "Great atmosphere and a satisfying loop. I kept telling myself I’d stop, then started another run/quest immediately.",
+    "createdAt": {
+      "$date": "2026-02-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1259420,
+    "username": "Athow",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2026-02-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 364360,
+    "username": "McKeggie",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 787480,
+    "username": "Hakeworth",
+    "rating": 3,
+    "comment": "A decent time. I don’t regret it, but I probably won’t replay it.",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 1145350,
+    "username": "Shute",
+    "rating": 3,
+    "comment": "Good ideas, mixed execution. When it’s flowing it’s great, but there are annoying friction points.",
+    "createdAt": {
+      "$date": "2025-12-09T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2827200,
+    "username": "Whitehurst",
+    "rating": 4,
+    "comment": "Surprisingly addictive. The pacing is good and the systems have more depth than they look at first.",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3994610,
+    "username": "Rignold",
+    "rating": 2,
+    "comment": "Wanted to love it, but the difficulty spikes feel random and the game punishes experimentation.",
+    "createdAt": {
+      "$date": "2025-10-29T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 2527390,
+    "username": "Buckeridge",
+    "rating": 5,
+    "comment": "Incredible but very long. Set aside 100+ hours. If you like deep systems and slow-burn progression, this is absolutely worth it.",
+    "createdAt": {
+      "$date": "2025-03-05T00:00:00.000Z"
+    }
+  },
+  {
+    "steamId": 3681810,
+    "username": "Searsby",
+    "rating": 5,
+    "comment": "Instant classic for me. Tight mechanics, great pacing, and it kept surprising me with new ideas. I finished it and immediately wanted to start over.",
+    "createdAt": {
+      "$date": "2025-12-15T00:00:00.000Z"
+    }
+  }
+]
