@@ -1,0 +1,14 @@
+[
+  {
+    "username": "Jordan",
+    "createdAt": { "$date": "2026-02-15T00:00:00.000Z" }
+  },
+  {
+    "username": "Alex",
+    "createdAt": { "$date": "2026-02-15T00:00:00.000Z" }
+  },
+  {
+    "username": "Sam",
+    "createdAt": { "$date": "2026-02-15T00:00:00.000Z" }
+  }
+]
