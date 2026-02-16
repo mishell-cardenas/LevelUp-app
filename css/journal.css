@@ -1,0 +1,254 @@
+/* Journal Page Styles */
+
+/* Journal Grid Layout */
+.journal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* Journal Panel */
+.journal-panel {
+  padding: 30px;
+}
+
+.panel-title {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.total-hours {
+  color: #b0b0b0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.total-hours strong {
+  color: #fff;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  color: #6ab0ff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  background: rgba(100, 100, 140, 0.4);
+  border: 1px solid rgba(106, 176, 255, 0.2);
+  border-radius: 12px;
+  padding: 14px 18px;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  font-family: inherit;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #6ab0ff;
+  box-shadow: 0 0 15px rgba(106, 176, 255, 0.15);
+}
+
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* Primary Button */
+.btn-primary-gradient {
+  background: linear-gradient(135deg, #6ab0ff, #a855f7);
+  border: none;
+  border-radius: 25px;
+  padding: 14px 32px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-primary-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(106, 176, 255, 0.4);
+}
+
+/* Entries List */
+.entries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+/* Custom Scrollbar */
+.entries-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.entries-list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.entries-list::-webkit-scrollbar-thumb {
+  background: rgba(106, 176, 255, 0.3);
+  border-radius: 3px;
+}
+
+.entries-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(106, 176, 255, 0.5);
+}
+
+/* Entry Accordion */
+.entry-accordion {
+  background: rgba(100, 100, 140, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.entry-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: none;
+  border: none;
+  color: #e0e0e0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.entry-header:hover {
+  background: rgba(106, 176, 255, 0.1);
+}
+
+.entry-date {
+  font-weight: 500;
+}
+
+.entry-toggle {
+  color: #6ab0ff;
+  transition: transform 0.3s ease;
+}
+
+.entry-accordion.open .entry-toggle {
+  transform: rotate(180deg);
+}
+
+.entry-content {
+  display: none;
+  padding: 0 20px 20px;
+}
+
+.entry-accordion.open .entry-content {
+  display: block;
+}
+
+.entry-field {
+  margin-bottom: 12px;
+}
+
+.field-label {
+  display: block;
+  color: #6ab0ff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.entry-field p {
+  color: #b0b0b0;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.entry-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 12px;
+}
+
+.entry-rating {
+  color: #f5a623;
+}
+
+.entry-hours {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+}
+
+.entry-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+/* Small Buttons */
+.btn-small {
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-small.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #e0e0e0;
+}
+
+.btn-small.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-small.btn-danger {
+  background: rgba(231, 76, 60, 0.2);
+  border: 1px solid rgba(231, 76, 60, 0.3);
+  color: #e74c3c;
+}
+
+.btn-small.btn-danger:hover {
+  background: rgba(231, 76, 60, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .journal-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
