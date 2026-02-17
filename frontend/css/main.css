@@ -655,3 +655,49 @@ footer {
 .about-list li:last-child {
   margin-bottom: 0;
 }
+
+.glass-search {
+  display: inline-block;
+  width: 50%;
+  max-width: 600px;
+  padding: 8px 14px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.12),
+    rgba(255, 255, 255, 0.04)
+  );
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px; /* pill */
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+  transition: all 0.25s ease;
+}
+
+.glass-search:hover {
+  box-shadow: 0 12px 30px rgba(120, 90, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.form-control.search-input {
+  background: transparent;
+  border: none;
+  color: white;
+  box-shadow: none;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-input:focus {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
