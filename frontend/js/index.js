@@ -12,6 +12,7 @@ let currentGame = null;
 const gameModalEl = document.getElementById("gameModal");
 const reviewsPill = document.getElementById("reviewsPill");
 
+
 if (reviewsPill) {
   reviewsPill.addEventListener("click", () => {
     const id = currentGame ? currentGame.steamId : null;

@@ -1,13 +1,13 @@
-import 'dotenv/config';
-import express from 'express';
-import session from 'express-session';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { connectDB } from './db/connection.js';
-import authRoutes from './routes/auth.js';
-import libraryRoutes from './routes/library.js';
-import journalRoutes from './routes/journal.js';
-import gameRoutes from './routes/gameRoutes.js';
+import "dotenv/config";
+import express from "express";
+import session from "express-session";
+import path from "path";
+import { fileURLToPath } from "url";
+import { connectDB } from "./db/connection.js";
+import authRoutes from "./routes/auth.js";
+import libraryRoutes from "./routes/library.js";
+import journalRoutes from "./routes/journal.js";
+import gameRoutes from "./routes/gameRoutes.js";
 import syncRoutes from "./routes/syncRoutes.js";
 import reviewRoutes from "./routes/reviewRoutes.js";
 
@@ -53,24 +53,17 @@ app.get("/", (req, res) => {
 // Serve frontend (css/, js/, html/ all live under frontend/)
 app.use(express.static(FRONTEND_DIR));
 
-let db;
-
-app.use((req, res, next) => {
-  req.db = db;
-  next();
-});
-
 // ============================================
 // API ROUTES
 // ============================================
 
-app.use('/api/auth', authRoutes);
-app.use('/api/library', libraryRoutes);
-app.use('/api/journal', journalRoutes);
-app.use('/api/games', gameRoutes);
-app.use("/games", gameRoutes);
-app.use("/sync", syncRoutes);
-app.use("/reviews", reviewRoutes);
+// app.use("/api/auth", authRoutes);
+// app.use("/api/library", libraryRoutes);
+// app.use("/api/journal", journalRoutes);
+// app.use("/api/games", gameRoutes);
+// app.use("/games", gameRoutes);
+// app.use("/sync", syncRoutes);
+// app.use("/reviews", reviewRoutes);
 
 // ============================================
 // START SERVER
@@ -78,7 +71,28 @@ app.use("/reviews", reviewRoutes);
 
 async function startServer() {
   try {
-    db = await connectDB();
+    const db = await connectDB();
+
+    app.use((req, res, next) => {
+      req.db = db;
+      next();
+    });
+
+    // ============================================
+    // API ROUTES (mounted AFTER DB connects)
+    // ============================================
+
+    app.use("/api/auth", authRoutes);
+    app.use("/api/library", libraryRoutes);
+    app.use("/api/journal", journalRoutes);
+
+    app.use("/api/games", gameRoutes);
+    app.use("/games", gameRoutes);
+
+    app.use("/sync", syncRoutes);
+    app.use("/reviews", reviewRoutes);
+
+    // ============================================
 
     app.listen(PORT, () => {
       console.log(`
@@ -87,7 +101,7 @@ http://localhost:${PORT}
       `);
     });
   } catch (error) {
-    console.error('Failed to start server:', error);
+    console.error("❌ Failed to start server:", error);
     process.exit(1);
   }
 }

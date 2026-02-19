@@ -1,12 +1,11 @@
 import express from "express";
 import { ObjectId } from "mongodb";
-import { db } from "../config/connection.js";
 
 const router = express.Router();
 
 /**
  * @route GET /reviews/summaries?steamIds
- * Allows us to get averate of review ratings for each game
+ * Allows us to get average of review ratings for each game
  * Used in the index page to show the average rating for each game in the list
  */
 router.get("/summaries", async (req, res) => {
@@ -20,7 +19,11 @@ router.get("/summaries", async (req, res) => {
       return res.json({});
     }
 
-    const reviews = db.collection("reviews");
+    if (!req.db) {
+      return res.status(500).json({ error: "DB missing on req.db" });
+    }
+
+    const reviews = req.db.collection("reviews");
 
     const results = await reviews
       .aggregate([
@@ -48,10 +51,10 @@ router.get("/summaries", async (req, res) => {
       };
     }
 
-    res.json(map);
+    return res.json(map);
   } catch (err) {
     console.error("Error fetching review summaries:", err);
-    res.status(500).json({ error: "Failed to fetch review summaries." });
+    return res.status(500).json({ error: "Failed to fetch review summaries." });
   }
 });
 
@@ -66,7 +69,11 @@ router.get("/game/:steamId/summary", async (req, res) => {
       return res.status(400).json({ error: "Invalid steamId parameter." });
     }
 
-    const reviews = db.collection("reviews");
+    if (!req.db) {
+      return res.status(500).json({ error: "DB missing on req.db" });
+    }
+
+    const reviews = req.db.collection("reviews");
 
     const result = await reviews
       .aggregate([
@@ -89,14 +96,14 @@ router.get("/game/:steamId/summary", async (req, res) => {
       });
     }
 
-    res.json({
+    return res.json({
       steamId: steamId,
       averageRating: result[0].averageRating,
       reviewCount: result[0].reviewCount,
     });
   } catch (err) {
     console.error("Error fetching review summary:", err);
-    res.status(500).json({ error: "Failed to fetch review summary." });
+    return res.status(500).json({ error: "Failed to fetch review summary." });
   }
 });
 
@@ -118,7 +125,11 @@ router.get("/game/:steamId", async (req, res) => {
     const safeLimit = Number.isFinite(limit) && limit > 0 ? limit : 50;
     const skip = (safePage - 1) * safeLimit;
 
-    const reviewsCol = db.collection("reviews");
+    if (!req.db) {
+      return res.status(500).json({ error: "DB missing on req.db" });
+    }
+
+    const reviewsCol = req.db.collection("reviews");
 
     const items = await reviewsCol
       .find({ steamId: steamId })
@@ -167,7 +178,11 @@ router.post("/", async (req, res) => {
         .json({ error: "Rating must be a number between 0 and 5." });
     }
 
-    const reviews = db.collection("reviews");
+    if (!req.db) {
+      return res.status(500).json({ error: "DB missing on req.db" });
+    }
+
+    const reviews = req.db.collection("reviews");
 
     const newReview = {
       steamId: steamId,
@@ -179,13 +194,13 @@ router.post("/", async (req, res) => {
 
     const result = await reviews.insertOne(newReview);
 
-    res.status(201).json({
+    return res.status(201).json({
       message: "Review submitted successfully.",
       reviewId: result.insertedId,
     });
   } catch (err) {
     console.error("Error submitting review:", err);
-    res.status(500).json({ error: "Failed to submit review." });
+    return res.status(500).json({ error: "Failed to submit review." });
   }
 });
 
@@ -211,7 +226,11 @@ router.patch("/:id", async (req, res) => {
       return res.status(400).json({ error: "Comment is required." });
     }
 
-    const reviews = db.collection("reviews");
+    if (!req.db) {
+      return res.status(500).json({ error: "DB missing on req.db" });
+    }
+
+    const reviews = req.db.collection("reviews");
 
     const result = await reviews.updateOne(
       { _id: new ObjectId(id) },
@@ -240,7 +259,11 @@ router.delete("/:id", async (req, res) => {
       return res.status(400).json({ error: "Invalid review id." });
     }
 
-    const reviews = db.collection("reviews");
+    if (!req.db) {
+      return res.status(500).json({ error: "DB missing on req.db" });
+    }
+
+    const reviews = req.db.collection("reviews");
 
     const result = await reviews.deleteOne({ _id: new ObjectId(id) });
 

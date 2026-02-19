@@ -20,7 +20,7 @@ loginForm.addEventListener('submit', async (e) => {
       return;
     }
 
-    window.location.href = '/html/index.html';
+    window.location.href = '../index.html';
   } catch (error) {
     console.error('Login error:', error);
     alert('Could not connect to server');
