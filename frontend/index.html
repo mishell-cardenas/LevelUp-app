@@ -4,13 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LevelUp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
-    <h1>LevelUp</h1>
-    <ul>
-      <li><a href="/html/login.html">Login</a></li>
-      <li><a href="/html/library.html">Library</a></li>
-      <li><a href="/html/journal.html">Journal</a></li>
-    </ul>
+    <!-- Stars Background -->
+    <canvas class="stars-canvas" id="starsCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">LevelUp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <span class="nav-link user-greeting">Welcome, Jordan</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/library.html">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/reviews.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/journal.html">Journal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="search-row text-center mt-3">
+      <div class="glass-search">
+        <form class="d-flex align-items-center" role="search">
+          <input
+            id="searchInput"
+            class="form-control search-input"
+            type="search"
+            placeholder="Search games..."
+          />
+        </form>
+      </div>
+    </div>
+
+    <main class="container my-4">
+      <div id="gamesGrid" class="games-grid"></div>
+      <div class="pager">
+        <button id="prevButton" class="btn btn-outline-light">Prev</button>
+        <span id="pageLabel" class="text-light"></span>
+        <button id="nextButton" class="btn btn-outline-light">Next</button>
+      </div>
+    </main>
+
+    <div class="modal-overlay" id="gameModal">
+      <div class="game-modal glass-card">
+        <button type="button" class="modal-close" onclick="closeGameModal()">
+          &times;
+        </button>
+
+        <div class="modal-content-grid">
+          <div class="modal-cover">
+            <img id="modalCover" src="" alt="Game Cover" />
+          </div>
+
+          <div class="modal-details">
+            <div class="modal-block">
+              <div class="modal-label">Title</div>
+              <div id="modalTitle" class="modal-value-title">Game Title</div>
+            </div>
+            <div class="modal-block">
+              <div class="modal-label">Genre</div>
+              <div id="modalGenre" class="modal-value">—</div>
+            </div>
+            <div class="reviews-pill">
+              <span class="reviews-pill-label">Reviews</span>
+              <span id="modalRating" class="reviews-pill-value">—</span>
+              <span class="reviews-pill-star">⭐</span>
+            </div>
+          </div>
+          <div class="modal-desc-full">
+            <div id="modalQuote" class="modal-quote">“No reviews yet.”</div>
+            <div class="modal-desc-title">Description</div>
+            <p id="modalDescription" class="modal-desc-text">...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/stars.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>

@@ -8,6 +8,7 @@ import authRoutes from './routes/auth.js';
 import libraryRoutes from './routes/library.js';
 import journalRoutes from './routes/journal.js';
 import gameRoutes from './routes/gameRoutes.js';
+import syncRoutes from "./routes/syncRoutes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
