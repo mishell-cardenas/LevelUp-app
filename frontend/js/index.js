@@ -5,7 +5,6 @@ const prevButton = document.getElementById("prevButton");
 const nextButton = document.getElementById("nextButton");
 const pageLabel = document.getElementById("pageLabel");
 const searchInput = document.getElementById("searchInput");
-
 let page = 1;
 const limit = 20;
 let totalPages = 1;

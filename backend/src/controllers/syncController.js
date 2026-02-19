@@ -54,7 +54,7 @@ export async function syncTopSellers(req, res) {
 
     res.json({
       message: "Sync completed.",
-      requested: 1000,
+      requested: 1010,
       syncedCount,
       skippedCount,
     });

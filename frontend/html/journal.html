@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LevelUp - Journal</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="../css/journal.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/journal.css">
 </head>
 <body>
   <!-- Stars Background -->
@@ -22,13 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
+            <a class="nav-link" href="/html/index.html">Discover</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="library.html">← Back to Library</a>
           </li>
           <li class="nav-item">
-            <span class="nav-link user-greeting">Welcome, Jordan</span>
+            <span class="nav-link user-greeting" id="userGreeting">Welcome</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="login.html">Logout</a>
+            <a class="nav-link" href="#" id="logoutBtn">Logout</a>
           </li>
         </ul>
       </div>
@@ -38,7 +41,7 @@
   <!-- Main Content -->
   <main class="container py-5">
     <!-- Page Title -->
-    <h1 class="page-title mb-4" data-text="User's Journal">User's Journal</h1>
+    <h1 class="page-title mb-4" data-text="Journal"><span id="journalGameName">Journal</span></h1>
 
     <!-- Journal Layout -->
     <div class="journal-grid">
@@ -96,124 +99,14 @@
         <p class="total-hours">Total hours played: <strong id="totalHours">100</strong></p>
         
         <div class="entries-list" id="entriesList">
-          <!-- Entry 1 -->
-          <div class="entry-accordion">
-            <button class="entry-header" onclick="toggleEntry(this)">
-              <span class="entry-date">Feb 8, 2026</span>
-              <span class="entry-toggle">▼</span>
-            </button>
-            <div class="entry-content">
-              <div class="entry-field">
-                <span class="field-label">Where I left off:</span>
-                <p>Just beat Margit, at Stormveil Castle entrance</p>
-              </div>
-              <div class="entry-field">
-                <span class="field-label">Objectives:</span>
-                <p>Explore Stormveil Castle, find Godrick</p>
-              </div>
-              <div class="entry-field">
-                <span class="field-label">Important details:</span>
-                <p>Have +3 Uchigatana, need more vigor</p>
-              </div>
-              <div class="entry-field">
-                <span class="field-label">Decisions:</span>
-                <p>Killed Patches, probably shouldn't have</p>
-              </div>
-              <div class="entry-meta">
-                <span class="entry-rating">⭐⭐⭐⭐⭐</span>
-                <span class="entry-hours">3 hours</span>
-              </div>
-              <div class="entry-actions">
-                <button class="btn-small btn-secondary">Edit</button>
-                <button class="btn-small btn-danger">Delete</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Entry 2 -->
-          <div class="entry-accordion">
-            <button class="entry-header" onclick="toggleEntry(this)">
-              <span class="entry-date">Feb 8, 2026</span>
-              <span class="entry-toggle">▼</span>
-            </button>
-            <div class="entry-content">
-              <div class="entry-field">
-                <span class="field-label">Where I left off:</span>
-                <p>Stuck on Margit, the Fell Omen</p>
-              </div>
-              <div class="entry-field">
-                <span class="field-label">Objectives:</span>
-                <p>Beat Margit or go level up</p>
-              </div>
-              <div class="entry-field">
-                <span class="field-label">Important details:</span>
-                <p>Found Rogier who can help</p>
-              </div>
-              <div class="entry-field">
-                <span class="field-label">Decisions:</span>
-                <p>Summoned wolves for help</p>
-              </div>
-              <div class="entry-meta">
-                <span class="entry-rating">⭐⭐⭐</span>
-                <span class="entry-hours">2 hours</span>
-              </div>
-              <div class="entry-actions">
-                <button class="btn-small btn-secondary">Edit</button>
-                <button class="btn-small btn-danger">Delete</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Entry 3 -->
-          <div class="entry-accordion">
-            <button class="entry-header" onclick="toggleEntry(this)">
-              <span class="entry-date">Feb 8, 2026</span>
-              <span class="entry-toggle">▼</span>
-            </button>
-            <div class="entry-content">
-              <div class="entry-field">
-                <span class="field-label">Where I left off:</span>
-                <p>Limgrave, exploring the starting area</p>
-              </div>
-              <div class="entry-meta">
-                <span class="entry-rating">⭐⭐⭐⭐</span>
-                <span class="entry-hours">4 hours</span>
-              </div>
-              <div class="entry-actions">
-                <button class="btn-small btn-secondary">Edit</button>
-                <button class="btn-small btn-danger">Delete</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Entry 4 -->
-          <div class="entry-accordion">
-            <button class="entry-header" onclick="toggleEntry(this)">
-              <span class="entry-date">Feb 8, 2026</span>
-              <span class="entry-toggle">▼</span>
-            </button>
-            <div class="entry-content">
-              <div class="entry-field">
-                <span class="field-label">Where I left off:</span>
-                <p>Character creation complete</p>
-              </div>
-              <div class="entry-meta">
-                <span class="entry-rating">⭐⭐⭐⭐⭐</span>
-                <span class="entry-hours">1 hour</span>
-              </div>
-              <div class="entry-actions">
-                <button class="btn-small btn-secondary">Edit</button>
-                <button class="btn-small btn-danger">Delete</button>
-              </div>
-            </div>
-          </div>
+          <!-- Entries rendered dynamically by journal.js -->
         </div>
       </div>
     </div>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../js/stars.js"></script>
-  <script src="../js/journal.js"></script>
+  <script src="/js/stars.js"></script>
+  <script src="/js/journal.js"></script>
 </body>
 </html>

@@ -4,7 +4,6 @@
   gap: 40px;
   padding: 30px 10px;
 }
-
 .game-card {
   text-align: center;
   color: white;
@@ -12,7 +11,6 @@
   flex-direction: column;
   gap: 5px;
 }
-
 .game-card img {
   width: 230px;
   max-width: 100%;
@@ -21,22 +19,18 @@
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }
-
 .game-card:hover img {
   box-shadow: 0 12px 30px rgba(120, 90, 255, 0.35);
   transform: translateY(-1px);
 }
-
 .game-title {
   font-weight: 700;
   margin-top: 10px;
 }
-
 .game-rating {
   font-weight: 700;
   margin-top: 6px;
 }
-
 .pager {
   display: flex;
   justify-content: center;
@@ -44,7 +38,6 @@
   gap: 16px;
   padding-bottom: 30px;
 }
-
 /* Modal Overlay */
 .modal-overlay {
   display: none;
@@ -59,11 +52,9 @@
   align-items: center;
   z-index: 1000;
 }
-
 .modal-overlay.active {
   display: flex;
 }
-
 .game-click {
   background: none;
   border: none;
@@ -78,23 +69,19 @@
   color: inherit;
   font: inherit;
 }
-
 .game-click:focus {
   outline: none;
 }
-
 .game-image-btn img {
   display: block;
   width: 100%;
   border-radius: 12px;
 }
-
 .game-modal {
   width: min(680px, 65vw);
   padding: 24px;
   position: relative;
 }
-
 .modal-close {
   position: absolute;
   top: 15px;
@@ -106,45 +93,38 @@
   cursor: pointer;
   transition: color 0.3s ease;
 }
-
 .modal-close:hover {
   color: #fff;
 }
-
 .modal-content-grid {
   display: grid;
   grid-template-columns: 320px 1fr;
   gap: 34px;
   align-items: start;
 }
-
 .modal-cover {
   border-radius: 18px;
   overflow: hidden;
   aspect-ratio: 1 / 1;
   background: linear-gradient(135deg, #2a2a3e 0%, #3a3a50 100%);
 }
-
 .modal-cover img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .modal-game-title {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 20px;
 }
-
 .modal-details {
   display: flex;
   flex-direction: column;
   gap: 18px;
   min-width: 0;
 }
-
 /* Title + Genre blocks */
 .modal-block .modal-label {
   color: #fff;
@@ -154,14 +134,12 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
 .modal-block .modal-value-title,
 .modal-block .modal-value {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1.1rem;
   font-weight: 600;
 }
-
 /* Reviews pill */
 .reviews-pill {
   align-self: flex-start;
@@ -182,16 +160,13 @@
   box-shadow: 0 12px 30px rgba(120, 90, 255, 0.35);
   transform: translateY(-1px);
 }
-
 .reviews-pill-label,
 .reviews-pill-value {
   font-size: 1.6rem;
 }
-
 .reviews-pill-star {
   font-size: 1.4rem;
 }
-
 /* Quote centered */
 .modal-quote {
   text-align: center;
@@ -200,26 +175,22 @@
   font-size: 1.25rem;
   margin-top: 4px;
 }
-
 /* Description */
 .modal-desc-title {
   color: #fff;
   font-size: 2.1rem;
   font-weight: 800;
 }
-
 .modal-desc-text {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1.15rem;
   line-height: 1.65;
   margin: 0;
 }
-
 .modal-desc-full {
-  grid-column: 1 / -1; 
+  grid-column: 1 / -1;
   margin-top: 10px;
 }
-
 .modal-desc-text {
   font-size: 1.2rem;
   line-height: 1.7;

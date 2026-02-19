@@ -240,6 +240,35 @@
   background: rgba(231, 76, 60, 0.3);
 }
 
+/* Select Dropdowns */
+select.form-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236ab0ff' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+  cursor: pointer;
+}
+
+select.form-input option {
+  background: #1a1a2e;
+  color: #e0e0e0;
+  padding: 8px;
+}
+
+/* Number Input Spinners */
+input[type="number"].form-input {
+  -moz-appearance: textfield;
+}
+
+input[type="number"].form-input::-webkit-inner-spin-button,
+input[type="number"].form-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .journal-grid {

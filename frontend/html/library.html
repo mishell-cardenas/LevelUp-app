@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LevelUp - My Library</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="../css/library.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/library.css">
 </head>
 <body>
   <!-- Stars Background -->
@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
+            <a class="nav-link" href="/html/index.html">Discover</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link active" href="library.html">My Library</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="discover.html">Discover</a>
+            <span class="nav-link user-greeting" id="userGreeting">Welcome</span>
           </li>
           <li class="nav-item">
-            <span class="nav-link user-greeting">Welcome, Jordan</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.html">Logout</a>
+            <a class="nav-link" href="#" id="logoutBtn">Logout</a>
           </li>
         </ul>
       </div>
@@ -69,61 +69,7 @@
 
     <!-- Library Grid -->
     <div class="library-grid" id="libraryGrid">
-      <!-- Game Card 1 -->
-      <div class="game-card" data-id="1" onclick="openGameModal(this)">
-        <div class="game-cover">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261570/library_600x900.jpg" alt="Ori and the Blind Forest">
-        </div>
-        <div class="game-info">
-          <h3 class="game-title">Ori and the Blind Forest</h3>
-          <div class="game-rating">
-            <span class="rating-value">4.5</span>
-            <span class="rating-star">★</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Game Card 2 -->
-      <div class="game-card" data-id="2" onclick="openGameModal(this)">
-        <div class="game-cover">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg" alt="Elden Ring">
-        </div>
-        <div class="game-info">
-          <h3 class="game-title">Elden Ring</h3>
-          <div class="game-rating">
-            <span class="rating-value">5.0</span>
-            <span class="rating-star">★</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Game Card 3 -->
-      <div class="game-card" data-id="3" onclick="openGameModal(this)">
-        <div class="game-cover">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg" alt="Baldur's Gate 3">
-        </div>
-        <div class="game-info">
-          <h3 class="game-title">Baldur's Gate 3</h3>
-          <div class="game-rating">
-            <span class="rating-value">4.8</span>
-            <span class="rating-star">★</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Game Card 4 -->
-      <div class="game-card" data-id="4" onclick="openGameModal(this)">
-        <div class="game-cover">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900.jpg" alt="Hollow Knight">
-        </div>
-        <div class="game-info">
-          <h3 class="game-title">Hollow Knight</h3>
-          <div class="game-rating">
-            <span class="rating-value">4.9</span>
-            <span class="rating-star">★</span>
-          </div>
-        </div>
-      </div>
+      <!-- Games rendered dynamically by library.js -->
     </div>
 
     <!-- Floating Add Button -->
@@ -142,28 +88,51 @@
         </div>
         <div class="modal-details">
           <h2 id="modalTitle" class="modal-game-title">Game Title</h2>
-          
+
           <div class="detail-row">
             <span class="detail-label">Status</span>
-            <span id="modalStatus" class="detail-value status-badge">Completed</span>
+            <select id="modalStatus" class="form-input">
+              <option value="Wishlist">Wishlist</option>
+              <option value="Playing">Playing</option>
+              <option value="On Hold">On Hold</option>
+              <option value="Completed">Completed</option>
+              <option value="Dropped">Dropped</option>
+            </select>
           </div>
-          
+
           <div class="detail-row">
             <span class="detail-label">Completion</span>
-            <span id="modalCompletion" class="detail-value">95%</span>
+            <input type="number" id="modalCompletion" class="form-input" min="0" max="100" value="0">
           </div>
-          
+
           <div class="detail-row">
             <span class="detail-label">Priority</span>
-            <span id="modalPriority" class="detail-value">Low</span>
+            <select id="modalPriority" class="form-input">
+              <option value="">None</option>
+              <option value="1">1 - Highest</option>
+              <option value="2">2 - High</option>
+              <option value="3">3 - Medium</option>
+              <option value="4">4 - Low</option>
+              <option value="5">5 - Lowest</option>
+            </select>
           </div>
 
           <div class="detail-row">
             <span class="detail-label">Platform</span>
-            <span id="modalPlatform" class="detail-value">Steam</span>
+            <select id="modalPlatform" class="form-input">
+              <option value="Steam">Steam</option>
+              <option value="PlayStation">PlayStation</option>
+              <option value="Xbox">Xbox</option>
+              <option value="Nintendo Switch">Nintendo Switch</option>
+              <option value="PC (Other)">PC (Other)</option>
+            </select>
           </div>
-          
-          <button class="btn-primary-gradient" onclick="openJournal()">Open Journal</button>
+
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;">
+            <button class="btn-primary-gradient" onclick="saveGame()">Save Changes</button>
+            <button class="btn-primary-gradient" onclick="openJournal()">Open Journal</button>
+            <button class="btn-small btn-danger" onclick="deleteGame()" style="margin-left:auto;">Delete</button>
+          </div>
         </div>
       </div>
     </div>
@@ -176,9 +145,12 @@
       <h2 class="modal-title">Add Game to Library</h2>
       
       <form id="addGameForm">
-        <div class="form-group">
+        <div class="form-group" style="position: relative;">
           <label for="gameName">Game Name *</label>
-          <input type="text" id="gameName" class="form-input" placeholder="Search for a game..." required>
+          <input type="text" id="gameName" class="form-input" placeholder="Search for a game..." autocomplete="off" required>
+          <div id="gameSearchResults" style="display:none; position:absolute; z-index:10; width:100%; max-height:200px; overflow-y:auto; background:#1a1a2e; border:1px solid rgba(255,255,255,0.1); border-radius:8px; margin-top:2px;"></div>
+          <input type="hidden" id="gameSteamId">
+          <input type="hidden" id="gameHeaderImage">
         </div>
         
         <div class="form-group">
@@ -231,7 +203,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../js/stars.js"></script>
-  <script src="../js/library.js"></script>
+  <script src="/js/stars.js"></script>
+  <script src="/js/library.js"></script>
 </body>
 </html>

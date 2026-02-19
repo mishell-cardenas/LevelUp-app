@@ -1,10 +1,13 @@
-import "dotenv/config";
-import express from "express";
-import session from "express-session";
-import path from "path";
-import { fileURLToPath } from "url";
-import { connectDB } from "./config/connection.js";
-import gameRoutes from "./routes/gameRoutes.js";
+import 'dotenv/config';
+import express from 'express';
+import session from 'express-session';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { connectDB } from './db/connection.js';
+import authRoutes from './routes/auth.js';
+import libraryRoutes from './routes/library.js';
+import journalRoutes from './routes/journal.js';
+import gameRoutes from './routes/gameRoutes.js';
 import syncRoutes from "./routes/syncRoutes.js";
 import reviewRoutes from "./routes/reviewRoutes.js";
 
@@ -61,6 +64,10 @@ app.use((req, res, next) => {
 // API ROUTES
 // ============================================
 
+app.use('/api/auth', authRoutes);
+app.use('/api/library', libraryRoutes);
+app.use('/api/journal', journalRoutes);
+app.use('/api/games', gameRoutes);
 app.use("/games", gameRoutes);
 app.use("/sync", syncRoutes);
 app.use("/reviews", reviewRoutes);
@@ -80,7 +87,7 @@ http://localhost:${PORT}
       `);
     });
   } catch (error) {
-    console.error("Failed to start server:", error);
+    console.error('Failed to start server:', error);
     process.exit(1);
   }
 }
