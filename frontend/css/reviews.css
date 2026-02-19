@@ -1,0 +1,276 @@
+.reviews-page-title {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  font-size: clamp(2.2rem, 4vw, 4.4rem);
+  margin-bottom: 22px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  padding-bottom: 60px;
+}
+
+.review-card {
+  background: rgba(70, 78, 98, 0.45);
+  border-radius: 44px;
+  padding: 42px 54px;
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(6px);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.review-username {
+  font-size: clamp(1.6rem, 2.3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1;
+}
+
+.review-rating {
+  font-size: clamp(1.3rem, 2.1vw, 2.2rem);
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+.review-body {
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.35vw, 1.45rem);
+  line-height: 1.85;
+  text-align: center;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.no-reviews {
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  margin-top: 42px;
+  font-size: 1.2rem;
+}
+
+/* Add Review Modal */
+.add-review-modal {
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  position: relative;
+}
+
+.modal-title {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  display: block;
+  color: #6ab0ff;
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(106, 176, 255, 0.3);
+  border-radius: 14px;
+  padding: 16px 18px;
+  color: #e0e0e0;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #6ab0ff;
+  box-shadow: 0 0 15px rgba(106, 176, 255, 0.2);
+}
+
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.form-actions button {
+  flex: 1;
+}
+
+/* Floating Action Button */
+.fab {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(80, 80, 100, 0.8),
+    rgba(60, 60, 80, 0.9)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+.fab:hover {
+  transform: scale(1.1);
+  background: linear-gradient(
+    135deg,
+    rgba(106, 176, 255, 0.3),
+    rgba(168, 85, 247, 0.3)
+  );
+  box-shadow: 0 12px 32px rgba(106, 176, 255, 0.3);
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: #b0b0b0;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.modal-close:hover {
+  color: #fff;
+}
+
+/* Buttons */
+.btn-primary-gradient {
+  background: linear-gradient(135deg, #6ab0ff, #a855f7);
+  border: none;
+  border-radius: 25px;
+  padding: 12px 32px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn-primary-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(106, 176, 255, 0.4);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px 24px;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.review-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.review-btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.review-edit {
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+}
+
+.review-edit:hover {
+  transform: scale(1.1);
+  background: linear-gradient(
+    135deg,
+    rgba(106, 176, 255, 0.3),
+    rgba(168, 85, 247, 0.3)
+  );
+  box-shadow: 0 12px 32px rgba(106, 176, 255, 0.3);
+}
+
+.review-delete {
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+}
+
+.review-delete:hover {
+  transform: scale(1.1);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 80, 80, 0.3),
+    rgba(255, 100, 100, 0.3)
+  );
+  box-shadow: 0 12px 32px rgba(255, 80, 80, 0.3);
+}
+

@@ -9,6 +9,7 @@ import libraryRoutes from './routes/library.js';
 import journalRoutes from './routes/journal.js';
 import gameRoutes from './routes/gameRoutes.js';
 import syncRoutes from "./routes/syncRoutes.js";
+import reviewRoutes from "./routes/reviewRoutes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -20,40 +21,37 @@ const PORT = process.env.PORT || 3000;
 // MIDDLEWARE
 // ============================================
 
-// Parse JSON
 app.use(express.json());
 
 // Sessions
-app.use(session({
-  secret: process.env.SESSION_SECRET || 'levelup-secret-key',
-  resave: false,
-  saveUninitialized: false,
-  cookie: {
-    secure: false,
-    httpOnly: true,
-    maxAge: 7 * 24 * 60 * 60 * 1000
-  }
-}));
+app.use(
+  session({
+    secret: process.env.SESSION_SECRET || "levelup-secret-key",
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      secure: false,
+      httpOnly: true,
+      sameSite: "lax",
+      maxAge: 7 * 24 * 60 * 60 * 1000,
+    },
+  }),
+);
 
 // ============================================
 // FRONTEND ROUTES (before static so they take priority)
 // ============================================
 
-// Root route - serve login page
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'html', 'login.html'));
+// Adjust frontend path to point to the correct location of the frontend directory
+const FRONTEND_DIR = path.join(__dirname, "..", "..", "frontend");
+
+// Root route serves login page
+app.get("/", (req, res) => {
+  res.sendFile(path.join(FRONTEND_DIR, "html", "login.html"));
 });
 
-// ============================================
-// STATIC FILES
-// ============================================
-
 // Serve frontend (css/, js/, html/ all live under frontend/)
-app.use(express.static(path.join(__dirname, '..', '..', 'frontend')));
-
-// ============================================
-// DATABASE
-// ============================================
+app.use(express.static(FRONTEND_DIR));
 
 let db;
 
@@ -70,6 +68,9 @@ app.use('/api/auth', authRoutes);
 app.use('/api/library', libraryRoutes);
 app.use('/api/journal', journalRoutes);
 app.use('/api/games', gameRoutes);
+app.use("/games", gameRoutes);
+app.use("/sync", syncRoutes);
+app.use("/reviews", reviewRoutes);
 
 // ============================================
 // START SERVER
