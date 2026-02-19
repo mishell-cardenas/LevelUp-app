@@ -1,5 +1,4 @@
 import { getGameInfo } from "../services/steamService.js";
-import { db } from "../config/connection.js";
 
 export async function searchGames(req, res) {
   const { q } = req.query;
@@ -63,6 +62,9 @@ export async function fetchGame(req, res) {
 }
 
 export async function listGames(req, res) {
+  if (!req.db) {
+    return res.status(500).json({ error: "DB missing on req.db" });
+  }
   try {
     const page = Number(req.query.page) || 1;
     const limit = Number(req.query.limit) || 20;
