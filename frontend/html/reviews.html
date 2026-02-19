@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/reviews.css" />
+  </head>
+  <body>
+    <!-- Stars Background -->
+    <canvas class="stars-canvas" id="starsCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">LevelUp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <span class="nav-link user-greeting">Welcome, Jordan</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/library.html">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/journal.html">Journal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container my-4">
+      <h1 id="reviewsTitle" class="reviews-page-title">Reviews</h1>
+
+      <div id="noReviewsMsg" class="no-reviews d-none">
+        No reviews yet. Be the first to add one!
+      </div>
+
+      <div id="reviewsList" class="reviews-list"></div>
+
+      <button class="fab" id="addReviewBtn" title="Add Review">
+        <span>+</span>
+      </button>
+    </main>
+
+    <div class="modal-overlay" id="addReviewModal">
+      <div class="add-review-modal glass-card">
+        <button
+          class="modal-close"
+          type="button"
+          onclick="closeAddReviewModal()"
+        >
+          &times;
+        </button>
+
+        <h2 class="modal-title" id="reviewModalTitle">Add a New Review</h2>
+
+        <form id="addReviewForm">
+          <div class="form-group">
+            <label for="reviewUsername">Username</label>
+            <input
+              type="text"
+              id="reviewUsername"
+              class="form-input"
+              placeholder="Your username..."
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="reviewComment">Review</label>
+            <input
+              type="text"
+              id="reviewComment"
+              class="form-input"
+              placeholder="Your review..."
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="reviewRating">Stars</label>
+            <select id="reviewRating" class="form-input" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+
+          <div class="form-actions">
+            <button
+              type="button"
+              class="btn-secondary"
+              onclick="closeAddReviewModal()"
+            >
+              Cancel
+            </button>
+            <button type="submit" class="btn-primary-gradient">
+              Save Review
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/stars.js"></script>
+    <script src="../js/reviews.js"></script>
+  </body>
+</html>

@@ -175,6 +175,12 @@
   font-weight: 800;
   font-size: 1.6rem;
   gap: 14px;
+  cursor: pointer;
+}
+
+.reviews-pill:hover {
+  box-shadow: 0 12px 30px rgba(120, 90, 255, 0.35);
+  transform: translateY(-1px);
 }
 
 .reviews-pill-label,

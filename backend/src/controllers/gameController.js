@@ -1,5 +1,5 @@
 import { getGameInfo } from "../services/steamService.js";
-import { db } from "../config/db.js";
+import { db } from "../config/connection.js";
 
 export async function fetchGame(req, res) {
   const { steamId } = req.params;
@@ -59,7 +59,6 @@ export async function listGames(req, res) {
       gamesCollection
         .find(query)
         .project({ steamId: 1, name: 1, headerImage: 1 })
-        .sort({ name: 1 })
         .skip(skip)
         .limit(limit)
         .toArray(),

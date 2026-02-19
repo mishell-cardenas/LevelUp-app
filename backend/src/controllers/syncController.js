@@ -1,4 +1,4 @@
-import { db } from "../config/db.js";
+import { db } from "../config/connection.js";
 import { getGameInfo } from "../services/steamService.js";
 import { getTopSellersSteamIds } from "../services/topSellersService.js";
 
@@ -19,10 +19,10 @@ export async function syncTopSellers(req, res) {
       const checkDupe = await gamesCollection.findOne({ steamId: Number(steamId)});
       if (checkDupe) {
         skippedCount += 1;
-        continue; // Skip if the game already exists in the database
+        continue; 
       }
 
-      await sleep(600); // Sleep for 600ms between requests
+      await sleep(600); 
 
       let steamGame;
       try {
@@ -30,7 +30,7 @@ export async function syncTopSellers(req, res) {
       } catch (error) {
         console.error(error.message);
         skippedCount += 1;
-        continue; // Skip this game and move to the next one
+        continue; 
       }
 
       const gameInfo = {
