@@ -42,6 +42,31 @@ https://docs.google.com/presentation/d/1UVTaACZoyDrF8beThUPCOn0vRj4dh_NedHy_3n_y
 ## 🛠️ Tech Requirements
 
 ## 💨 Install & Run Locally
+1. Clone the repo:
+
+```bash
+git clone https://github.com/mishell-cardenas/LevelUp-app.git
+cd LevelUp-app
+```
+
+2. Install dependencies:
+In root directory:
+```bash
+npm install
+```
+
+In backend directory:
+```bash
+cd backend
+npm install
+```
+
+2. Run the server
+
+```bash
+cd backend
+npm start
+```
 
 
 
