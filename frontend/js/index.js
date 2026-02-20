@@ -274,4 +274,44 @@ searchInput.addEventListener("input", () => {
   loadGames();
 });
 
-loadGames();
+// ============================================
+// AUTH, GREETING & LOGOUT
+// ============================================
+
+async function checkAuth() {
+  try {
+    const res = await fetch("/api/auth/me");
+    if (!res.ok) {
+      window.location.href = "/html/login.html";
+      return null;
+    }
+    const data = await res.json();
+    return data.user;
+  } catch {
+    window.location.href = "/html/login.html";
+    return null;
+  }
+}
+
+async function handleLogout(e) {
+  e.preventDefault();
+  try {
+    await fetch("/api/auth/logout", { method: "POST" });
+  } catch {
+    // proceed to redirect even if logout request fails
+  }
+  window.location.href = "/html/login.html";
+}
+
+const logoutBtn = document.getElementById("logoutBtn");
+if (logoutBtn) logoutBtn.addEventListener("click", handleLogout);
+
+(async function init() {
+  const user = await checkAuth();
+  if (!user) return;
+
+  const greeting = document.getElementById("userGreeting");
+  if (greeting) greeting.textContent = `Welcome, ${user.username}`;
+
+  loadGames();
+})();
