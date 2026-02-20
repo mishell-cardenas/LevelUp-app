@@ -103,15 +103,21 @@ cd LevelUp-app
 
 2. Install dependencies:
    
-In root directory:
+In root folder:
 ```bash
 npm install
 ```
 
-In backend directory:
+In backend folder:
 ```bash
 cd backend
 npm install
+```
+
+Additionally, on the backend folder create a .env file with:
+```bash
+MONGO_URI=your_mongodb_atlas_connection_string
+PORT=3000
 ```
 
 3. Run the server
@@ -120,6 +126,7 @@ npm install
 cd backend
 npm start
 ```
+
 
 
 
