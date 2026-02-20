@@ -26,12 +26,36 @@ https://docs.google.com/presentation/d/1UVTaACZoyDrF8beThUPCOn0vRj4dh_NedHy_3n_y
 
 ## How to use LevelUp
 ### Getting Started
-** Sign In**
+**Sign In**
 1. Simply type your desired username
-### Browsing Games
+
+**Browsing Games**
+1. On the home page use the search bar to look for specific games
+2. View all games and their average ratings on the home page (use "prev"/"next" to move arround the catalog)
+4. Click on any game to see detailed information
+
 ### Adding Game Reviews
+1. After clicking on a game, click on the reviews pill to open the reviews page for that specific game
+2. To add a new review hit the "plus" button on the bottom right corner
+3. To edit a specific review hit the edit button and change the desired info
+4. To delet a review hit the delete button
+   
 ### User Library
+1. Click on the "My library" button on the nav bar at the top of the page
+2. The games specific to the user will pop up
+3. Add a new game to the library by hitting the "plus" button on the bottom right corner
+4. Edit the information of a specific game by clicking on it
+5. Go to the user's journal for that specific game by hittin the "Open Journal" button after clicking on the respective game
+6. Delete a game from the user's library by hitting the delete button
+
 ### User Journal
+1. Log a current session by filling in the info on the fields provided
+2. Save the new entry by hitting the "Add entry" button
+3. Check previous entries on the Past Entries section
+4. Return to the user's library by hitting the "Back to Library" button on the nav bar at the top
+
+### Logout
+1. Logout from LevelUp by hitting the "Logout" button on the nav bar at the top
 
 ## 📸 Screenshots
 <img width="1495" height="808" alt="Screenshot 2026-02-19 at 22 26 07" src="https://github.com/user-attachments/assets/5a6432d9-802b-4337-8d72-7794a93f9964" />
@@ -96,6 +120,7 @@ npm install
 cd backend
 npm start
 ```
+
 
 
 
