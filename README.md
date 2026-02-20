@@ -114,7 +114,7 @@ cd backend
 npm install
 ```
 
-Additionally, on the backend folder create a .env file with:
+Additionally, on the backend folder create an .env file with:
 ```bash
 MONGO_URI=your_mongodb_atlas_connection_string
 PORT=3000
@@ -126,6 +126,7 @@ PORT=3000
 cd backend
 npm start
 ```
+
 
 
 
