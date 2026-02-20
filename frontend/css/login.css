@@ -37,9 +37,15 @@
 }
 
 @keyframes gradient-shift {
-  0% { background-position: 0% center; }
-  50% { background-position: 100% center; }
-  100% { background-position: 0% center; }
+  0% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+  100% {
+    background-position: 0% center;
+  }
 }
 
 .brand-tagline {
@@ -172,7 +178,7 @@
 }
 
 .btn-primary-gradient.loading::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -185,7 +191,9 @@
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Responsive */

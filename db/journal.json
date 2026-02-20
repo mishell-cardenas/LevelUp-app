@@ -1,6 +1,6 @@
 [
   {
-    "libraryId": {"$oid":  "6992853f7d862572a0f68b7d"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b7d" },
     "whereILeftOff": "Finished a Competitive match on Mirage after switching to CT side, last round was a 1v2 clutch attempt at B site.",
     "currentObjectives": "Improve crosshair placement and practice smoke lineups for Mirage and Inferno in Aim Labs before next ranked queue.",
     "importantDetails": "Sensitivity at 1.8 DPI 800 felt good; AK spray control improved but still missing long-range taps. Team communication better when using short callouts.",
@@ -10,7 +10,7 @@
     "createdAt": { "$date": "2025-09-25T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b7d" },
+    "libraryId": { "$oid": "6992853f7d862572a0f68b7d" },
     "whereILeftOff": "Ended session after a Wingman win on Overpass; ranked up to Gold Nova II and logged off after two consecutive victories.",
     "currentObjectives": "Focus on economy management and grenade usage, especially flash timings for site entry with teammates.",
     "importantDetails": "Noticed better performance when playing anchor on B site. Need to reduce unnecessary peeks when low HP.",
@@ -20,7 +20,7 @@
     "createdAt": { "$date": "2026-02-05T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b7e" },
+    "libraryId": { "$oid": "6992853f7d862572a0f68b7e" },
     "whereILeftOff": "Ended the run after losing two high-stat cats in a poison trap room; last surviving cat barely escaped with 3 HP.",
     "currentObjectives": "Breed a new generation focused on higher agility and disease resistance before attempting another mid-tier dungeon.",
     "importantDetails": "Noticed that stacking luck traits increases item drops significantly, but survivability drops without proper armor upgrades.",
@@ -30,7 +30,7 @@
     "createdAt": { "$date": "2025-10-09T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b7e" },
+    "libraryId": { "$oid": "6992853f7d862572a0f68b7e" },
     "whereILeftOff": "Stopped after a failed boss encounter where the entire litter was wiped due to low speed stats.",
     "currentObjectives": "Farm early dungeons for better gear and experiment with support-oriented cats instead of all offense.",
     "importantDetails": "RNG felt rough this session — multiple negative mutations appeared in breeding results and resources ran low quickly.",
@@ -40,7 +40,7 @@
     "createdAt": { "$date": "2025-04-23T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b7f" },
+    "libraryId": { "$oid": "6992853f7d862572a0f68b7f" },
     "whereILeftOff": "Extracted from a level 7 Terminid mission after barely surviving a chaotic last stand near the shuttle with only one reinforcement left.",
     "currentObjectives": "Unlock upgraded Eagle stratagems and practice faster reinforcement and resupply call-ins to reduce squad downtime.",
     "importantDetails": "Friendly fire incidents increased when using the autocannon; need clearer communication before orbital strikes.",
@@ -50,7 +50,7 @@
     "createdAt": { "$date": "2025-11-02T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b7f" },
+    "libraryId": { "$oid": "6992853f7d862572a0f68b7f" },
     "whereILeftOff": "Ended session after a successful Automatons defense mission where the squad held the final uplink with coordinated turret placement.",
     "currentObjectives": "Improve stratagem input speed and experiment with shield generator builds for higher-difficulty operations.",
     "importantDetails": "Noticed better survival rates when sticking close to squad and rotating support roles instead of solo flanking.",
@@ -60,7 +60,7 @@
     "createdAt": { "$date": "2026-01-18T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b80"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b80" },
     "whereILeftOff": "Finished a close payload match after a last-second overtime push where the enemy team almost wiped us near the final checkpoint.",
     "currentObjectives": "Practice positioning with support heroes and improve ultimate timing so it syncs better with team engages.",
     "importantDetails": "Noticed performance drops when overextending without shields; sticking near tanks increased survival and assist counts.",
@@ -70,7 +70,7 @@
     "createdAt": { "$date": "2025-12-03T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b80"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b80" },
     "whereILeftOff": "Logged off after two ranked losses caused by poor coordination during objective defense in the final rounds.",
     "currentObjectives": "Learn at least two additional heroes to adapt to team composition and counter enemy picks more effectively.",
     "importantDetails": "Communication was minimal this session; matches felt chaotic without clear shot-calling or role assignments.",
@@ -80,7 +80,7 @@
     "createdAt": { "$date": "2026-02-14T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b81"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b81" },
     "whereILeftOff": "Ended the session after a top-3 finish where the squad got third-partied right after winning a long fight near the final ring.",
     "currentObjectives": "Improve mid-range aim consistency and work on faster armor swaps during chaotic engagements.",
     "importantDetails": "Noticed better survivability when rotating early instead of chasing kills; positioning mattered more than raw damage.",
@@ -90,7 +90,7 @@
     "createdAt": { "$date": "2025-11-21T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b81" },
+    "libraryId": { "$oid": "6992853f7d862572a0f68b81" },
     "whereILeftOff": "Logged off after a ranked loss streak caused by poor drop locations and early eliminations in hot zones.",
     "currentObjectives": "Practice controlled drops in less crowded areas and focus on looting efficiently before taking fights.",
     "importantDetails": "Communication improved win rate significantly; solo pushes almost always resulted in getting knocked first.",
@@ -100,7 +100,7 @@
     "createdAt": { "$date": "2026-02-10T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid":"6992853f7d862572a0f68b82"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b82" },
     "whereILeftOff": "Saved in a dimly lit laboratory corridor after solving a circuit puzzle and hearing enemies roaming nearby with almost no ammo left.",
     "currentObjectives": "Backtrack to search for additional handgun ammo and combine herbs before attempting the locked security wing.",
     "importantDetails": "Inventory space is nearly full and resources are tight; conserving bullets and relying on stealth felt much safer this session.",
@@ -110,7 +110,7 @@
     "createdAt": { "$date": "2025-10-28T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b82"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b82" },
     "whereILeftOff": "Ended after escaping a boss encounter with critical health and locking the door behind to regroup.",
     "currentObjectives": "Upgrade weapon damage and revisit earlier rooms to uncover missed files and hidden supplies.",
     "importantDetails": "Sound cues are essential — footsteps and distant growls helped avoid several ambushes that would have drained resources.",
@@ -120,7 +120,7 @@
     "createdAt": { "$date": "2026-01-19T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b83"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b83" },
     "whereILeftOff": "Stopped after navigating a flooded farm area while hiding from a roaming creature that tracked sound through the water.",
     "currentObjectives": "Find a safer route through the barn tunnels and collect missing key fragments to unlock the lighthouse gate.",
     "importantDetails": "Ambient noises and flickering lights made it hard to judge enemy distance; moving slowly and crouching reduced detection significantly.",
@@ -130,7 +130,7 @@
     "createdAt": { "$date": "2025-11-14T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b83"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b83" },
     "whereILeftOff": "Ended the session after solving a shadow puzzle in an abandoned house and reaching a safe room checkpoint.",
     "currentObjectives": "Explore the upper floors for hidden notes and uncover the combination needed for the locked basement door.",
     "importantDetails": "Puzzle clues are subtle and easy to miss; writing down symbols and patterns helped avoid backtracking.",
@@ -140,7 +140,7 @@
     "createdAt": { "$date": "2026-02-06T00:00:00.000Z" }
   },
   {
-    "libraryId":{"$oid": "6992853f7d862572a0f68b84"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b84" },
     "whereILeftOff": "Extracted from a scavenging run in the ruined industrial zone after barely escaping a patrol drone swarm with low ammo and damaged armor.",
     "currentObjectives": "Upgrade backpack capacity and unlock improved silencers to make stealth looting safer in higher-threat areas.",
     "importantDetails": "Noise attracts ARC units quickly; suppressed weapons and slower movement significantly reduced detection during the last mission.",
@@ -150,7 +150,7 @@
     "createdAt": { "$date": "2025-11-09T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b84"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b84" },
     "whereILeftOff": "Logged off after a failed extraction when the squad was overwhelmed near the drop ship by multiple aerial ARC reinforcements.",
     "currentObjectives": "Coordinate better extraction timing with teammates and practice quicker loot sorting under pressure.",
     "importantDetails": "Carrying too much high-value loot slowed movement and made escaping nearly impossible once enemies swarmed the area.",
@@ -160,7 +160,7 @@
     "createdAt": { "$date": "2026-01-27T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid":"6992853f7d862572a0f68b85"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b85" },
     "whereILeftOff": "Finished decorating the main house interior after unlocking new pastel furniture sets and planting a small garden near the river.",
     "currentObjectives": "Gather crafting materials to expand the workshop and unlock additional clothing customization options.",
     "importantDetails": "Daily quests provided most of the coins this session; fishing near the waterfall yielded rare decorative items.",
@@ -170,7 +170,7 @@
     "createdAt": { "$date": "2025-09-12T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid":"6992853f7d862572a0f68b85"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b85" },
     "whereILeftOff": "Logged off after completing a festival event and unlocking a limited-time outfit set.",
     "currentObjectives": "Upgrade home storage space and befriend more NPCs to unlock special dialogue and side quests.",
     "importantDetails": "Time-of-day changes affect shop inventory; evening vendors offered rarer crafting blueprints.",
@@ -180,7 +180,7 @@
     "createdAt": { "$date": "2026-02-03T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid":"6992853f7d862572a0f68b86"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b86" },
     "whereILeftOff": "Ended the session after a top-5 finish where I got caught rotating into the final circle without enough cover.",
     "currentObjectives": "Practice long-range recoil control and improve mid-game rotations to avoid getting pinned by snipers.",
     "importantDetails": "Early looting in smaller compounds felt safer; rushing hot drops consistently led to quick eliminations.",
@@ -190,7 +190,7 @@
     "createdAt": { "$date": "2025-11-18T00:00:00.000Z" }
   },
   {
-    "libraryId": {"$oid": "6992853f7d862572a0f68b86"},
+    "libraryId": { "$oid": "6992853f7d862572a0f68b86" },
     "whereILeftOff": "Logged off after securing a chicken dinner in squads with coordinated vehicle rotations and late-game smoke coverage.",
     "currentObjectives": "Refine grenade usage and improve communication callouts during final circle engagements.",
     "importantDetails": "Using smokes for revives and repositioning drastically increased late-game survivability.",
@@ -198,5 +198,5 @@
     "sessionRating": 5,
     "hoursPlayed": 84,
     "createdAt": { "$date": "2026-02-12T00:00:00.000Z" }
-  } 
+  }
 ]

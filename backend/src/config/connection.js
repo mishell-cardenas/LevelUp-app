@@ -7,7 +7,7 @@ let db = null;
 let client = null;
 
 export async function connectDB() {
-  if (db) return db; 
+  if (db) return db;
 
   try {
     client = new MongoClient(MONGO_URI);
