@@ -13,7 +13,7 @@ const gameModalEl = document.getElementById("gameModal");
 const reviewsPill = document.getElementById("reviewsPill");
 
 /**
- * Handle special characters 
+ * Handle special characters
  */
 function escapeHtml(str) {
   if (!str) return "";
@@ -31,7 +31,7 @@ function formatRatingsAvg(avg) {
 }
 
 /**
- * Load ratings for games 
+ * Load ratings for games
  */
 async function loadRatingsForGames(games) {
   try {
@@ -109,7 +109,7 @@ async function loadModalRating(steamId) {
 }
 
 /**
- * Modal that holds game data and reviews 
+ * Modal that holds game data and reviews
  */
 async function openGameModal(game) {
   const appId = game.steamId;

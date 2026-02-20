@@ -9,7 +9,7 @@
     "priority": 5,
     "progressPercent": 61,
     "dropReason": "",
-    "dateAdded":  { "$date": "2025-05-01T00:00:00.000Z" },
+    "dateAdded": { "$date": "2025-05-01T00:00:00.000Z" },
     "dateLastPlayed": { "$date": "2026-02-25T00:00:00.000Z" }
   },
   {

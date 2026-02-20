@@ -27,7 +27,7 @@ function setModalTitle(text) {
 }
 
 /**
- * Hanlde modal to add a new review 
+ * Hanlde modal to add a new review
  */
 function openCreateReviewModal() {
   reviewFormMode = "create";
@@ -90,7 +90,7 @@ function closeAddReviewModal() {
 window.closeAddReviewModal = closeAddReviewModal;
 
 /**
- * Create review cards for the reviews list 
+ * Create review cards for the reviews list
  */
 function renderReviewCard(review) {
   const id = String(review._id || "");
@@ -139,7 +139,7 @@ function renderReviewCard(review) {
 }
 
 /**
- * Load game title for the reviews page header 
+ * Load game title for the reviews page header
  */
 async function loadGameTitle(steamId) {
   const res = await fetch(
@@ -295,7 +295,6 @@ async function handleSubmitReviewForm(e) {
     alert("Network error.");
   }
 }
-
 
 // ============================================
 // AUTH, GREETING & LOGOUT
