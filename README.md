@@ -24,6 +24,15 @@ https://docs.google.com/document/d/1VkaJHrDlkYFw7t_eqTJhEdR4glzGYyPgvGcKgdL8D34/
 ## 📊  Presentation Slides 
 https://docs.google.com/presentation/d/1UVTaACZoyDrF8beThUPCOn0vRj4dh_NedHy_3n_y7VM/edit?usp=sharing
 
+## How to use LevelUp
+### Getting Started
+** Sign In**
+1. Simply type your desired username
+### Browsing Games
+### Adding Game Reviews
+### User Library
+### User Journal
+
 ## 📸 Screenshots
 <img width="1495" height="808" alt="Screenshot 2026-02-19 at 22 26 07" src="https://github.com/user-attachments/assets/5a6432d9-802b-4337-8d72-7794a93f9964" />
 
@@ -87,6 +96,7 @@ npm install
 cd backend
 npm start
 ```
+
 
 
 
