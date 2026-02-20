@@ -72,6 +72,9 @@ https://docs.google.com/presentation/d/1UVTaACZoyDrF8beThUPCOn0vRj4dh_NedHy_3n_y
 
 <img width="1495" height="808" alt="Screenshot 2026-02-19 at 22 25 56" src="https://github.com/user-attachments/assets/8af2e53d-2eeb-40e4-a503-a5d9f2511c76" />
 
+<img width="1495" height="808" alt="Screenshot 2026-02-19 at 23 24 33" src="https://github.com/user-attachments/assets/ffbf1ab3-f3d8-4208-9db4-d691c11b8b54" />
+
+
 ## 🛠️ Tech Requirements
 Backend:
 - Node.js
@@ -126,6 +129,7 @@ PORT=3000
 cd backend
 npm start
 ```
+
 
 
 
