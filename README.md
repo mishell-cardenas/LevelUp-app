@@ -50,6 +50,7 @@ cd LevelUp-app
 ```
 
 2. Install dependencies:
+   
 In root directory:
 ```bash
 npm install
@@ -67,6 +68,7 @@ npm install
 cd backend
 npm start
 ```
+
 
 
 
