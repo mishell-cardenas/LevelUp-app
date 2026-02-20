@@ -21,7 +21,7 @@ https://levelup-zp2s.onrender.com/index.html
 ## 📂 Design Document 
 https://docs.google.com/document/d/1VkaJHrDlkYFw7t_eqTJhEdR4glzGYyPgvGcKgdL8D34/edit?usp=sharing
 
-## 📂 Presentation Slides 
+## 📊  Presentation Slides 
 https://docs.google.com/presentation/d/1UVTaACZoyDrF8beThUPCOn0vRj4dh_NedHy_3n_y7VM/edit?usp=sharing
 
 ## 📸 Screenshots
@@ -40,6 +40,25 @@ https://docs.google.com/presentation/d/1UVTaACZoyDrF8beThUPCOn0vRj4dh_NedHy_3n_y
 <img width="1495" height="808" alt="Screenshot 2026-02-19 at 22 25 56" src="https://github.com/user-attachments/assets/8af2e53d-2eeb-40e4-a503-a5d9f2511c76" />
 
 ## 🛠️ Tech Requirements
+Backend:
+- Node.js
+- Express.js
+- dotenv
+
+Frontend 
+- HTML5
+- CSS
+- JavaScript (Vanilla)
+- Bootstrap
+
+Development 
+- Git & GitHub
+- EDLint
+- Prettier
+
+Deployment
+- Render
+- MongoDB Atlas
 
 ## 💨 Install & Run Locally
 1. Clone the repo:
@@ -51,12 +70,12 @@ cd LevelUp-app
 
 2. Install dependencies:
    
-   In root directory:
+In root directory:
 ```bash
 npm install
 ```
 
-   In backend directory:
+In backend directory:
 ```bash
 cd backend
 npm install
@@ -68,6 +87,7 @@ npm install
 cd backend
 npm start
 ```
+
 
 
 
