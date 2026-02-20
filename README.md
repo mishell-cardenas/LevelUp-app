@@ -148,6 +148,7 @@ Additionally, on the backend folder create an .env file with:
 MONGO_URI=your_mongodb_atlas_connection_string
 PORT=3000
 ```
+Please see the .env.example file inside the backend folder for more instructions. 
 
 3. Run the server
 
