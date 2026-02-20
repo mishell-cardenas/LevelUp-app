@@ -24,6 +24,9 @@ https://docs.google.com/document/d/1VkaJHrDlkYFw7t_eqTJhEdR4glzGYyPgvGcKgdL8D34/
 ## 📊  Presentation Slides 
 https://docs.google.com/presentation/d/1UVTaACZoyDrF8beThUPCOn0vRj4dh_NedHy_3n_y7VM/edit?usp=sharing
 
+## 📹 Video Demo
+https://youtu.be/mnl_4e_ceGA
+
 ## How to use LevelUp
 ### Getting Started
 **Sign In**
@@ -127,6 +130,7 @@ PORT=3000
 cd backend
 npm start
 ```
+
 
 
 
