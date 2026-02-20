@@ -1,8 +1,10 @@
 const API_BASE = "";
-
-let reviewFormMode = "create"; 
+let reviewFormMode = "create";
 let editingReviewId = null;
 
+/**
+ * Helper functions for formatting
+ */
 function getSteamIdFromUrl() {
   const params = new URLSearchParams(window.location.search);
   const steamId = Number(params.get("steamId"));
@@ -24,6 +26,9 @@ function setModalTitle(text) {
   if (el) el.textContent = text;
 }
 
+/**
+ * Hanlde modal to add a new review 
+ */
 function openCreateReviewModal() {
   reviewFormMode = "create";
   editingReviewId = null;
@@ -57,7 +62,7 @@ function openEditReviewModal(review) {
 
   if (usernameEl) {
     usernameEl.value = review.username || "";
-    usernameEl.disabled = true; 
+    usernameEl.disabled = true;
   }
   if (commentEl) commentEl.value = review.comment || "";
   if (ratingEl) ratingEl.value = String(review.rating || "5");
@@ -82,6 +87,11 @@ function closeAddReviewModal() {
   setModalTitle("Add a New Review");
 }
 
+window.closeAddReviewModal = closeAddReviewModal;
+
+/**
+ * Create review cards for the reviews list 
+ */
 function renderReviewCard(review) {
   const id = String(review._id || "");
   const username = escapeHtml(review.username || "user_name");
@@ -128,6 +138,9 @@ function renderReviewCard(review) {
   return card;
 }
 
+/**
+ * Load game title for the reviews page header 
+ */
 async function loadGameTitle(steamId) {
   const res = await fetch(
     `${API_BASE}/games/${encodeURIComponent(steamId)}/details`,
@@ -173,6 +186,9 @@ async function loadReviews(steamId) {
   }
 }
 
+/**
+ * Handle delete, create, and edit reviews
+ */
 async function handleDeleteReview(review) {
   const steamId = getSteamIdFromUrl();
   if (!steamId) {
@@ -208,6 +224,79 @@ async function handleDeleteReview(review) {
   }
 }
 
+async function handleSubmitReviewForm(e) {
+  e.preventDefault();
+
+  const steamId = getSteamIdFromUrl();
+  if (!steamId) {
+    alert("Missing steamId in URL.");
+    return;
+  }
+
+  const usernameEl = document.getElementById("reviewUsername");
+  const commentEl = document.getElementById("reviewComment");
+  const ratingEl = document.getElementById("reviewRating");
+
+  const username = (usernameEl?.value || "").trim();
+  const comment = (commentEl?.value || "").trim();
+  const rating = Number(ratingEl?.value);
+
+  if (!Number.isFinite(rating) || rating < 1 || rating > 5) {
+    alert("Rating must be 1 to 5.");
+    return;
+  }
+
+  if (comment.length === 0) {
+    alert("Please write a review.");
+    return;
+  }
+
+  try {
+    let res;
+
+    if (reviewFormMode === "create") {
+      if (username.length === 0) {
+        alert("Username is required.");
+        return;
+      }
+
+      res = await fetch(`${API_BASE}/reviews`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ steamId, username, rating, comment }),
+      });
+    } else {
+      if (!editingReviewId || editingReviewId.length === 0) {
+        alert("Missing review id for edit.");
+        return;
+      }
+
+      res = await fetch(
+        `${API_BASE}/reviews/${encodeURIComponent(editingReviewId)}`,
+        {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ rating, comment }),
+        },
+      );
+    }
+
+    const data = await res.json().catch(() => ({}));
+
+    if (!res.ok) {
+      alert(data.error || "Request failed.");
+      return;
+    }
+
+    closeAddReviewModal();
+    await loadReviews(steamId);
+  } catch (err) {
+    console.error(err);
+    alert("Network error.");
+  }
+}
+
+
 async function init() {
   const steamId = getSteamIdFromUrl();
 
@@ -234,77 +323,7 @@ if (addReviewBtn) {
 
 const addReviewForm = document.getElementById("addReviewForm");
 if (addReviewForm) {
-  addReviewForm.addEventListener("submit", async (e) => {
-    e.preventDefault();
-
-    const steamId = getSteamIdFromUrl();
-    if (!steamId) {
-      alert("Missing steamId in URL.");
-      return;
-    }
-
-    const usernameEl = document.getElementById("reviewUsername");
-    const commentEl = document.getElementById("reviewComment");
-    const ratingEl = document.getElementById("reviewRating");
-
-    const username = (usernameEl?.value || "").trim();
-    const comment = (commentEl?.value || "").trim();
-    const rating = Number(ratingEl?.value);
-
-    if (!Number.isFinite(rating) || rating < 1 || rating > 5) {
-      alert("Rating must be 1 to 5.");
-      return;
-    }
-
-    if (comment.length === 0) {
-      alert("Please write a review.");
-      return;
-    }
-
-    try {
-      let res;
-
-      if (reviewFormMode === "create") {
-        if (username.length === 0) {
-          alert("Username is required.");
-          return;
-        }
-
-        res = await fetch(`${API_BASE}/reviews`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ steamId, username, rating, comment }),
-        });
-      } else {
-        if (!editingReviewId || editingReviewId.length === 0) {
-          alert("Missing review id for edit.");
-          return;
-        }
-
-        res = await fetch(
-          `${API_BASE}/reviews/${encodeURIComponent(editingReviewId)}`,
-          {
-            method: "PATCH",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ rating, comment }),
-          },
-        );
-      }
-
-      const data = await res.json().catch(() => ({}));
-
-      if (!res.ok) {
-        alert(data.error || "Request failed.");
-        return;
-      }
-
-      closeAddReviewModal();
-      await loadReviews(steamId);
-    } catch (err) {
-      console.error(err);
-      alert("Network error.");
-    }
-  });
+  addReviewForm.addEventListener("submit", handleSubmitReviewForm);
 }
 
 const addReviewModalEl = document.getElementById("addReviewModal");
@@ -317,7 +336,5 @@ if (addReviewModalEl) {
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeAddReviewModal();
 });
-
-window.closeAddReviewModal = closeAddReviewModal;
 
 init();

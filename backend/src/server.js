@@ -8,7 +8,6 @@ import authRoutes from "./routes/auth.js";
 import libraryRoutes from "./routes/library.js";
 import journalRoutes from "./routes/journal.js";
 import gameRoutes from "./routes/gameRoutes.js";
-import syncRoutes from "./routes/syncRoutes.js";
 import reviewRoutes from "./routes/reviewRoutes.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -50,7 +49,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(FRONTEND_DIR, "html", "login.html"));
 });
 
-// Serve frontend (css/, js/, html/ all live under frontend/)
 app.use(express.static(FRONTEND_DIR));
 
 
@@ -67,10 +65,6 @@ async function startServer() {
       next();
     });
 
-    // ============================================
-    // API ROUTES (mounted AFTER DB connects)
-    // ============================================
-
     app.use("/api/auth", authRoutes);
     app.use("/api/library", libraryRoutes);
     app.use("/api/journal", journalRoutes);
@@ -78,10 +72,7 @@ async function startServer() {
     app.use("/api/games", gameRoutes);
     app.use("/games", gameRoutes);
 
-    app.use("/sync", syncRoutes);
     app.use("/reviews", reviewRoutes);
-
-    // ============================================
 
     app.listen(PORT, () => {
       console.log(`

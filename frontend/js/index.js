@@ -1,10 +1,10 @@
 const API_BASE = "";
-
 const grid = document.getElementById("gamesGrid");
 const prevButton = document.getElementById("prevButton");
 const nextButton = document.getElementById("nextButton");
 const pageLabel = document.getElementById("pageLabel");
 const searchInput = document.getElementById("searchInput");
+
 let page = 1;
 const limit = 20;
 let totalPages = 1;
@@ -12,81 +12,9 @@ let currentGame = null;
 const gameModalEl = document.getElementById("gameModal");
 const reviewsPill = document.getElementById("reviewsPill");
 
-
-if (reviewsPill) {
-  reviewsPill.addEventListener("click", () => {
-    const id = currentGame ? currentGame.steamId : null;
-    if (!id) return;
-    window.location.href = `/html/reviews.html?steamId=${encodeURIComponent(id)}`;
-  });
-}
-
-async function openGameModal(game) {
-  const appId = game.steamId;
-  if (!appId) return;
-
-  document.getElementById("modalTitle").textContent = "Loading...";
-  document.getElementById("modalCover").src = game.headerImage || "";
-
-  try {
-    const res = await fetch(
-      `${API_BASE}/games/${encodeURIComponent(appId)}/details`,
-    );
-    if (!res.ok) throw new Error("Failed to load game details");
-
-    const details = await res.json();
-    currentGame = details;
-
-    document.getElementById("modalCover").src = details.headerImage || "";
-    document.getElementById("modalTitle").textContent =
-      details.name || "Untitled";
-
-    const genresText =
-      Array.isArray(details.genres) && details.genres.length > 0
-        ? details.genres.join(", ")
-        : "—";
-    document.getElementById("modalGenre").textContent = genresText;
-
-    document.getElementById("modalRating").textContent = "—";
-    document.getElementById("modalQuote").textContent = "“No reviews yet.”";
-
-    document.getElementById("modalDescription").textContent =
-      details.description || "No description available.";
-
-    gameModalEl.classList.add("active");
-    document.body.classList.add("modal-open");
-    await loadModalRating(appId);
-  } catch (err) {
-    console.error(err);
-
-    document.getElementById("modalTitle").textContent = game.name || "Untitled";
-    gameModalEl.classList.add("active");
-    document.body.classList.add("modal-open");
-  }
-}
-
-window.openJournal = function openJournal() {
-  if (!currentGame) return;
-  const appId = currentGame.steamId;
-  window.location.href = `/html/journal.html?steamId=${encodeURIComponent(appId)}`;
-};
-
-function closeGameModal() {
-  gameModalEl.classList.remove("active");
-  document.body.classList.remove("modal-open");
-  currentGame = null;
-}
-
-window.closeGameModal = closeGameModal;
-
-gameModalEl.addEventListener("click", (e) => {
-  if (e.target === gameModalEl) closeGameModal();
-});
-
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") closeGameModal();
-});
-
+/**
+ * Handle special characters 
+ */
 function escapeHtml(str) {
   if (!str) return "";
   return str
@@ -102,23 +30,21 @@ function formatRatingsAvg(avg) {
   return (Math.round(avg * 10) / 10).toFixed(1);
 }
 
+/**
+ * Load ratings for games 
+ */
 async function loadRatingsForGames(games) {
   try {
     const steamIds = [];
     for (const game of games) {
-      if (game.steamId) {
-        steamIds.push(game.steamId);
-      }
+      if (game.steamId) steamIds.push(game.steamId);
     }
-
     if (steamIds.length === 0) return;
 
     const res = await fetch(
       `${API_BASE}/reviews/summaries?steamIds=${steamIds.join(",")}`,
     );
-    if (!res.ok) {
-      throw new Error("Failed to load review summaries");
-    }
+    if (!res.ok) throw new Error("Failed to load review summaries");
 
     const summaries = await res.json();
 
@@ -182,6 +108,71 @@ async function loadModalRating(steamId) {
   }
 }
 
+/**
+ * Modal that holds game data and reviews 
+ */
+async function openGameModal(game) {
+  const appId = game.steamId;
+  if (!appId) return;
+
+  document.getElementById("modalTitle").textContent = "Loading...";
+  document.getElementById("modalCover").src = game.headerImage || "";
+
+  try {
+    const res = await fetch(
+      `${API_BASE}/games/${encodeURIComponent(appId)}/details`,
+    );
+    if (!res.ok) throw new Error("Failed to load game details");
+
+    const details = await res.json();
+    currentGame = details;
+
+    document.getElementById("modalCover").src = details.headerImage || "";
+    document.getElementById("modalTitle").textContent =
+      details.name || "Untitled";
+
+    const genresText =
+      Array.isArray(details.genres) && details.genres.length > 0
+        ? details.genres.join(", ")
+        : "—";
+    document.getElementById("modalGenre").textContent = genresText;
+
+    document.getElementById("modalRating").textContent = "—";
+    document.getElementById("modalQuote").textContent = "“No reviews yet.”";
+
+    document.getElementById("modalDescription").textContent =
+      details.description || "No description available.";
+
+    gameModalEl.classList.add("active");
+    document.body.classList.add("modal-open");
+
+    await loadModalRating(appId);
+  } catch (err) {
+    console.error(err);
+
+    document.getElementById("modalTitle").textContent = game.name || "Untitled";
+    gameModalEl.classList.add("active");
+    document.body.classList.add("modal-open");
+  }
+}
+
+function closeGameModal() {
+  gameModalEl.classList.remove("active");
+  document.body.classList.remove("modal-open");
+  currentGame = null;
+}
+
+window.closeGameModal = closeGameModal;
+
+window.openJournal = function openJournal() {
+  if (!currentGame) return;
+  const appId = currentGame.steamId;
+  window.location.href = `/html/journal.html?steamId=${encodeURIComponent(appId)}`;
+};
+
+/**
+ * Create game cards and insert into DOM
+ */
 function renderGames(games) {
   grid.innerHTML = "";
 
@@ -212,6 +203,9 @@ function renderGames(games) {
   }
 }
 
+/**
+ * Loading games and game data
+ */
 async function loadGames() {
   try {
     const search = searchInput.value.trim();
@@ -219,14 +213,10 @@ async function loadGames() {
     const params = new URLSearchParams();
     params.set("page", String(page));
     params.set("limit", String(limit));
-    if (search.length > 0) {
-      params.set("search", search);
-    }
+    if (search.length > 0) params.set("search", search);
 
     const res = await fetch(`${API_BASE}/games?${params.toString()}`);
-    if (!res.ok) {
-      throw new Error("Failed to load games");
-    }
+    if (!res.ok) throw new Error("Failed to load games");
 
     const data = await res.json();
 
@@ -244,6 +234,27 @@ async function loadGames() {
   }
 }
 
+/**
+ * Even listeners:
+ */
+if (reviewsPill) {
+  reviewsPill.addEventListener("click", () => {
+    const id = currentGame ? currentGame.steamId : null;
+    if (!id) return;
+    window.location.href = `/html/reviews.html?steamId=${encodeURIComponent(id)}`;
+  });
+}
+
+// Modal close interactions
+gameModalEl.addEventListener("click", (e) => {
+  if (e.target === gameModalEl) closeGameModal();
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeGameModal();
+});
+
+// Pagination + search
 prevButton.addEventListener("click", () => {
   if (page > 1) {
     page -= 1;
