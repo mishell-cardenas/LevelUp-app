@@ -53,17 +53,6 @@ app.get("/", (req, res) => {
 // Serve frontend (css/, js/, html/ all live under frontend/)
 app.use(express.static(FRONTEND_DIR));
 
-// ============================================
-// API ROUTES
-// ============================================
-
-// app.use("/api/auth", authRoutes);
-// app.use("/api/library", libraryRoutes);
-// app.use("/api/journal", journalRoutes);
-// app.use("/api/games", gameRoutes);
-// app.use("/games", gameRoutes);
-// app.use("/sync", syncRoutes);
-// app.use("/reviews", reviewRoutes);
 
 // ============================================
 // START SERVER
