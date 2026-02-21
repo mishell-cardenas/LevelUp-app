@@ -33,7 +33,7 @@ https://docs.google.com/presentation/d/1UVTaACZoyDrF8beThUPCOn0vRj4dh_NedHy_3n_y
 
 ## 📹 Video Demo
 
-https://youtu.be/mnl_4e_ceGA
+https://www.youtube.com/watch?v=ViZFt632_lE
 
 ## How to use LevelUp
 
