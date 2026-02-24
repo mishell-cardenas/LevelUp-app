@@ -160,7 +160,9 @@ router.get("/game/:steamId", async (req, res) => {
 router.post("/", async (req, res) => {
   try {
     const steamId = Number(req.body.steamId);
-    const username = String(req.body.username || "").trim();
+    // Fix — use the session user instead
+    // First add requireAuth middleware to reviewRoutes.js, then:
+    const username = req.session.user.username;
     const rating = Number(req.body.rating);
     const comment = String(req.body.comment || "").trim();
 
