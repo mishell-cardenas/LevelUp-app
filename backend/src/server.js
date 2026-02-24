@@ -68,10 +68,10 @@ async function startServer() {
     app.use("/api/library", libraryRoutes);
     app.use("/api/journal", journalRoutes);
 
-    app.use("/api/games", gameRoutes);
-    app.use("/games", gameRoutes);
-
-    app.use("/reviews", reviewRoutes);
+  //  Fix
+app.use("/api/games", gameRoutes);
+app.use("/api/reviews", reviewRoutes);
+// Removed the duplicate /games mount
 
     app.listen(PORT, () => {
       console.log(`
